@@ -1,0 +1,14 @@
+
+
+body {
+    max-width: 80ch;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #202020;
+    color: #bebebe;
+}
+
+#cover {
+    max-width: 960px;
+    max-height: 340px;
+}
