@@ -1,11 +1,10 @@
 body {
-    max-width: 80ch;
+    max-width: 1440px;
     margin: auto;
     font-family: acumin pro;
     background-color: #202020;
     color: #bebebe;
 } 
-
 
     /* Add a black background color to the top navigation */
 .topnav {
@@ -16,6 +15,7 @@ body {
   
   /* Style the links inside the navigation bar */
 .topnav a {
+
     float: right;
     color: #f2f2f2;
     text-align: right;
@@ -33,4 +33,3 @@ body {
 .topnav a.active {
     color: #a4161a;
 }
-
