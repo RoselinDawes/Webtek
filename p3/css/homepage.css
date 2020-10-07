@@ -1,0 +1,15 @@
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+      width: 100%;
+    }
+}
+
