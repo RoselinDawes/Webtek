@@ -1,0 +1,57 @@
+body {
+    max-width: 80ch;
+    margin: auto;
+    font-family: acumin pro;
+    background-color: #202020;
+    color: #bebebe;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #353535;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color:#A4161A;
+  }
+  
+  .topnav a.active {
+    color: #A4161A
+  }
+
+.about-section {
+    position: absolute;
+    width: 566px;
+    height: 344px;
+    left: 699px;
+    top: 167px;
+    text-align: justify;
+    
+    
+}
+
+.teamet {
+    position: absolute;
+    width: 100px;
+    height: 43px;
+    left: 170px;
+    top: 158px;
+}
+
+#brage{
+    position: absolute;
+    width: 400px;
+    height: 533.33px;
+    left: 170px;
+    top: 93px;
+
+}
