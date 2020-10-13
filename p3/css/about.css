@@ -1,0 +1,43 @@
+body {
+    max-width: 80ch;
+    margin: auto;
+    font-family: acumin pro;
+    background-color: #202020;
+    color: #bebebe;
+}
+
+.about-section {
+    position: absolute;
+    width: 40%;
+    height: 344px;
+    left: 699px;
+    top: 167px;
+    text-align: justify;  
+}
+
+.teamet {
+    position: absolute;
+    width: 40%;
+    height: 43px;
+    left: 170px;
+    top: 135%;
+    text-align: justify;
+}
+
+#brage {
+    position: absolute;
+    width: 400px;
+    height: 533.33px;
+    left: 170px;
+    top:33%;
+}
+
+hr { width:205%; height:1px; background: #f2f2f2 }
+
+.ingrid {
+  position: absolute;
+  width: 49px;
+  height: 29px;
+  left: 535px;
+  top: 450%;
+}
