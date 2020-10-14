@@ -1,5 +1,5 @@
 
-.row {
+/*.row {
     display: flex;
 }
   
@@ -11,5 +11,19 @@
     .column {
       flex: 100%;
     }
+}
+
+*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+
+}
+
+@media screen and (max-width: 720px) {
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 }
 
