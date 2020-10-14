@@ -15,15 +15,95 @@
 
 */
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 
+.part1 {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
+    grid-template-columns: repeat(2, 1fr);
 }
+
 
 @media screen and (max-width: 720px) {
-    .grid{
+    .part1{
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+      grid-template-columns: 1fr;
+    }
 }
+
+
+
+
+
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+
+}
+
+.photo{
+    width: 50%;
+    padding-left: 20%;
+}
+
+.text{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    padding-right: 20%;
+    padding-left: 10%;
+    
+
+}
+
+.text > div:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 10%;
+}
+
+/*
+
+#house{
+    position: absolute;
+    width: 266px;
+    height: 149px;
+    left: 170px;
+    
+}
+
+#kajakk{
+    position: absolute;
+    width: 266px;
+    height: 149px;
+    left: 40%;
+    
+}
+
+#klatring{
+    position: absolute;
+    width: 266px;
+    height: 149px;
+    left: 70%;
+    
+}
+
+h2{
+    padding-bottom: 7%;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+*/
+
+.part3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10%;
+    gap: 10%;
+    grid-auto-rows: 200px;
+}
+
+
+
 
