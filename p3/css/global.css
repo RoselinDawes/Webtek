@@ -33,3 +33,21 @@ body {
 .topnav a.active {
     color: #a4161a;
 }
+
+footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #353535;
+  text-align: center;
+  
+
+}
+
+#yt, #in, #face, #insta, #vimeo{
+  position: relative;
+  width: 3%;
+  padding: 1.5%;
+}
+
