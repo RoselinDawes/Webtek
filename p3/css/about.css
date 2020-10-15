@@ -1,5 +1,5 @@
 body {
-    max-width: 80ch;
+    max-width: 100%;
     margin: auto;
     font-family: acumin pro;
     background-color: #202020;
@@ -27,24 +27,66 @@ body {
 #brage {
     position: absolute;
     width: 30%;
-    height: 88%;
-    left: 170px;
+    left:13%;
     top:33%;
 }
 
 
 .cfo {
   position: absolute;
-  width: 49px;
-  height: 29px;
-  left: 535px;
+  width: 117%;
+  height: 10%;
+  left: 90%;
   top: 450%;
 }
 
 #ingrid {
     position: absolute;
-    width: 224px;
-    height: 298.67px;
-    left: 170px;
-    top:308px;
+    width: 50%;
+    top: 400%;
+}
+
+.cto {
+    position: absolute;
+    width: 117%;
+    height: 10%;
+    left: 90%;
+    top: 1450%;
+}
+
+#roselin {
+    position: absolute;
+    width: 50%;
+    top: 1500%;
+    filter:grayscale(100%);
+}
+
+.head_of_design {
+    position: absolute;
+    width: 117%;
+    height: 10%;
+    left: 90%;
+    top: 2450%;
+
+}
+
+#hanna {
+    position: absolute;
+    width: 50%;
+    top: 2500%; 
+}
+
+
+.dronepilot {
+    position: absolute;
+    width: 117%;
+    height: 10%;
+    left: 90%;
+    top: 3450%;
+}
+
+#herman {
+    position: absolute;
+    width: 50%;
+    top: 3500%; 
 }
