@@ -1,52 +1,49 @@
-.img{
-    display: flex;
-    margin: 3em;
+.img {
+  display: flex;
+  margin: 3em;
 }
 
 .row1 {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .row2 {
-    display: flex;
-    position: relative;
-    right: 0;
+  display: flex;
+  position: relative;
+  right: 0;
 }
 
 .row3 {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .row4 {
-    display: flex;
-    position: relative;
-    right: 0;
+  display: flex;
+  position: relative;
+  right: 0;
 }
-  
-
 
 .column4_1 {
-    position: relative;
-    right: 0;
+  position: relative;
+  right: 0;
 }
 .column4_2 {
-    position: relative;
-    right: 0;
+  position: relative;
+  right: 0;
 }
 .column4_3 {
-    position: relative;
-    right: 0;
+  position: relative;
+  right: 0;
 }
 
 .column {
-    flex: 50%;
+  flex: 50%;
 }
 
 @media screen and (max-width: 640px) {
-    
-    .column {
-      flex: 100%;
-    }
+  .column {
+    flex: 100%;
+  }
 }

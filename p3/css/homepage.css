@@ -1,4 +1,3 @@
-
 /*.row {
     display: flex;
 }
@@ -15,72 +14,62 @@
 
 */
 
-
 .part1 {
-    display: grid;
-    /*grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
-    grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  /*grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
+  grid-template-columns: repeat(2, 1fr);
 }
-
-
 
 @media screen and (max-width: 720px) {
-    .part1{
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-}
-
-#bestemor:hover{
-    /*filter: grayscale(100%);*/
-    filter: brightness(30%);
-}
-
-#fakkel:hover{
-    filter: brightness(30%);
-
-}
-
-#seil:hover{
-    filter: brightness(30%);
-}
-
-#beito:hover{
-    filter: brightness(30%);
-}
-
-
-
-
-.part2{
+  .part1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 5%;
-    background-color: #f2f2f2;
-    color: #202020;
-
+    grid-template-columns: 1fr;
+  }
 }
 
-.photo{
-    width: 50%;
-    padding-left: 20%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+#bestemor:hover {
+  /*filter: grayscale(100%);*/
+  filter: brightness(30%);
 }
 
-.text{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-self: center;
-    padding-right: 20%;
-    padding-left: 10%;
-    
-
+#fakkel:hover {
+  filter: brightness(30%);
 }
 
-.text > div:nth-child(1){
-    font-size: 25px;
-    padding-bottom: 10%;
+#seil:hover {
+  filter: brightness(30%);
+}
+
+#beito:hover {
+  filter: brightness(30%);
+}
+
+.part2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+  background-color: #f2f2f2;
+  color: #202020;
+}
+
+.photo {
+  width: 50%;
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.text {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-self: center;
+  padding-right: 20%;
+  padding-left: 10%;
+}
+
+.text > div:nth-child(1) {
+  font-size: 25px;
+  padding-bottom: 10%;
 }
 
 /*
@@ -110,23 +99,17 @@
 }
 */
 
-h2{
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-
+h2 {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
 }
 
-
-.part3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 10%;
-    gap: 10%;
-    grid-auto-rows: 200px;
+.part3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10%;
+  gap: 10%;
+  grid-auto-rows: 200px;
 }
-
-
-
-
