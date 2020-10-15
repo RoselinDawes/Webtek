@@ -26,18 +26,25 @@ body {
 
 #brage {
     position: absolute;
-    width: 400px;
-    height: 533.33px;
+    width: 30%;
+    height: 88%;
     left: 170px;
     top:33%;
 }
 
-hr { width:205%; height:1px; background: #f2f2f2 }
 
-.ingrid {
+.cfo {
   position: absolute;
   width: 49px;
   height: 29px;
   left: 535px;
   top: 450%;
+}
+
+#ingrid {
+    position: absolute;
+    width: 224px;
+    height: 298.67px;
+    left: 170px;
+    top:308px;
 }
