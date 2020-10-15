@@ -31,21 +31,55 @@
     }
 }
 
-#bestemor:hover{
+
+.container {
+    position: relative;
+    font-family: Arial;
+    
+  }
+  
+  .text-block {
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;
+    left: 35%;
+    /*background-color: black;*/
+    color: white;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    opacity: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.container:hover .opacity{
     /*filter: grayscale(100%);*/
+    transition: .5s ease;
     filter: brightness(30%);
 }
 
+.container:hover .text-block{
+    /*filter: grayscale(100%);*/
+    opacity: 1;
+    transition: .5s ease;
+
+}
+
 #fakkel:hover{
+    transition: .5s ease;
     filter: brightness(30%);
 
 }
 
 #seil:hover{
+    transition: .5s ease;
     filter: brightness(30%);
 }
 
 #beito:hover{
+    transition: .5s ease;
     filter: brightness(30%);
 }
 
