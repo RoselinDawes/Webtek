@@ -35,9 +35,9 @@ body {
 }
 
 
-footer{
-  position: relative;
-  left: 0;
+footer {
+  position: absolute;
+  left: 0%;
   bottom: 0;
   width: 100%;
   background-color: #353535;
@@ -46,9 +46,9 @@ footer{
 
 }
 
-#yt, #in, #face, #insta, #vimeo{
+#yt, #in, #face, #insta, #vimeo {
   position: relative;
-  width: 3%;
+  width: 5%;
   padding: 1.5%;
 }
 
