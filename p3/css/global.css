@@ -54,7 +54,9 @@ body {
   text-align: center;
 }
 
-
+.footer a:hover {
+  color: #a4161a;
+}
 
 #yt, #in, #face, #insta, #vimeo {
   position: relative;
@@ -68,3 +70,4 @@ body {
   top: 0px;
   left: 10px;
 }
+
