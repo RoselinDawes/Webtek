@@ -17,7 +17,7 @@ input[type=text]{
 }
 
 input[type=email]{
-    width: 61%;
+    width: 60.5%;
     box-sizing: border-box;
     border: 2% solid #f2f2f2;
     border-radius: 5px;
