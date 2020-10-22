@@ -1,24 +1,31 @@
 body {
     max-width: 100%;
     margin: auto;
-    font-family: acumin pro;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #202020;
     color: #bebebe;
 } 
 
-    /* Add a black background color to the top navigation */
+
+
+  
 .topnav {
     background-color: #353535;
+    position: fixed;
+    top: 0;
     height: 90px;
     width: 100%;
+    transition: top 0.3s;
 }
   
-  /* Style the links inside the navigation bar */
+  
 .topnav a {
 
     float: right;
+    display: block;
     color: #f2f2f2;
-    text-align: right;
+    text-align: left;
+    text-justify: center;
     padding: 2% 4%;
     text-decoration: none;
     font-size: 18px;
@@ -35,6 +42,7 @@ body {
 }
 
 
+
 .footer {
   position: relative;
   left: 0;
@@ -44,7 +52,9 @@ body {
   text-align: center;
 }
 
-
+.footer a:hover {
+  color: #a4161a;
+}
 
 #yt, #in, #face, #insta, #vimeo {
   position: relative;
@@ -58,3 +68,4 @@ body {
   top: 0px;
   left: 10px;
 }
+
