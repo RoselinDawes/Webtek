@@ -90,3 +90,16 @@ body {
     width: 50%;
     top: 3500%; 
 }
+
+
+hr.strek{
+    width:205%;
+    color:#f2f2f2;
+    size: 2px;
+}
+
+hr.strek2{
+    width:100%;
+    color:#f2f2f2;
+    size: 2px;
+}
