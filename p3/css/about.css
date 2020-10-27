@@ -48,9 +48,10 @@ body {
     position: absolute;
     width: 50%;
     top: 400%;
+    filter: grayscale(100%);
 }
 #ingrid:hover {
-    opacity: 0.7;
+    filter: grayscale(0%);
 }
 .cto {
     position: absolute;
