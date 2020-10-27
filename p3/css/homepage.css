@@ -166,5 +166,21 @@ h2{
     grid-auto-rows: 200px;
 }
 
+#house:hover{
+    transition: .5s ease;
+    filter: brightness(30%);
+}
+
+#kajakk:hover{
+    transition: .5s ease;
+    filter: brightness(30%);
+
+}
+
+#klatring:hover{
+    transition: .5s ease;
+    filter: brightness(30%);
+}
+
 
 
