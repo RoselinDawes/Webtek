@@ -1,4 +1,4 @@
-body {
+/*body {
     max-width: 100%;
     margin: auto;
     font-family: acumin pro;
@@ -103,3 +103,12 @@ hr.strek2{
     color:#f2f2f2;
     size: 2px;
 }
+*/
+
+.cfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+    
