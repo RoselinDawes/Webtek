@@ -44,7 +44,6 @@ body {
 }
 
 
-
 footer {
   position: relative;
   right: 0;
@@ -53,18 +52,6 @@ footer {
   width: 100%;
   background-color: #353535;
   text-align: center;
-}
-
-.footer a:hover {
-  color: #a4161a;
-
-}
-#yt{
-  background-image: url("youtube.png");
-}
-
-#yt:hover {
-  background-image: url("youtube_red.png");
 }
 
 
