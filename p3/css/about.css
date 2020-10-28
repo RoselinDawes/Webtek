@@ -144,6 +144,10 @@ hr.strek2{
     width: 70%;
 }
 
+.cfo > :nth-child(2){
+    margin-top: 4%;
+}
+
 @media screen and (max-width: 720px) {
     .cto, .cfo, .hod, .dronepilot{
         display: grid;
