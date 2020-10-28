@@ -112,6 +112,29 @@ hr.strek2{
 }
 */
 
+.aboutBrage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgBrage{
+    justify-self: center;
+    width: 60%;
+    padding: 5%;
+}
+.textBrage{
+    justify-self: left;
+    width: 70%;
+    padding: 5%;
+    text-align: justify;
+}
+
+
+
+#team, .strek{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .cfo{
     display: grid;
@@ -142,6 +165,7 @@ hr.strek2{
 .text{
     justify-self: left;
     width: 70%;
+    text-align: justify;
 }
 
 .cfo > :nth-child(2){
@@ -149,17 +173,26 @@ hr.strek2{
 }
 
 @media screen and (max-width: 720px) {
-    .cto, .cfo, .hod, .dronepilot{
+    .cto, .cfo, .hod, .dronepilot, .aboutBrage{
         display: grid;
         grid-template-columns: 1fr;
         padding: 2%;
     }
-    .text{
+    .text, .textBrage{
         justify-self: center;
+        padding-top: 3%;
     }
+
     .bilde{
-        margin-bottom: 1%;
+        margin-bottom: 2%;
+        padding-top: 4%;
     }
+
+    .textBrage > h1, h2{
+        text-align: center;
+    }
+    
+
 }
 
 
