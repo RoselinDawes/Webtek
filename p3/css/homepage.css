@@ -67,6 +67,8 @@
 
 }*/
 
+
+
 #bestemor:hover{
     transition: .5s ease;
     filter: brightness(30%);
@@ -88,6 +90,9 @@
     filter: brightness(30%);
 }
 
+#forside{
+    margin-top: 5%;
+}
 
 
 
@@ -166,21 +171,23 @@ h2{
     grid-auto-rows: 200px;
 }
 
+/*
+
 #house:hover{
     transition: .5s ease;
     filter: brightness(30%);
 }
 
-#kajakk:hover{
+#fjellet:hover{
     transition: .5s ease;
     filter: brightness(30%);
 
 }
 
-#klatring:hover{
+#bilde1:hover{
     transition: .5s ease;
     filter: brightness(30%);
-}
+}*/
 
 
 
