@@ -34,6 +34,7 @@ body{
 
 .gallery-item:hover .image img{
     transform: scale(1.2);
+    filter: brightness(30%);
 }
 
 .gallery-item .text{
