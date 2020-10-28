@@ -1,0 +1,76 @@
+h1 {
+  margin-left: 10%;
+}
+
+h4 {
+  margin-left: 10%;
+  display: block;
+  border-bottom: 2px solid white;
+  height: 50%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 'left right';
+    grid-template-columns: 1fr 1fr;
+    grid-gap:8%;
+   
+}
+
+.leftside{
+    grid-area: left;
+    text-align: left;
+    padding: 5%;
+    margin-top: 1%;
+}
+
+.leftside{
+    justify-self: end;
+}
+
+.rightside{
+    grid-area: right; 
+    margin-top: 18%;
+    
+}
+
+#textarea{
+    border-radius: 25px;
+    border: 2px solid #353535;
+    padding: 20px; 
+    width: 500px;
+    height: 200px; 
+}
+
+ /*
+form {
+  width: 30%;
+  margin-left: 10%;
+  bottom: 50%;
+}
+
+#video {
+  grid-column: 2/3;
+}
+
+#image {
+  margin-left: 58%;
+}
+
+#hours {
+  margin-left: 70%;
+}
+
+#days {
+  margin-left: 40%;
+}
+
+textarea {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  margin-left: 40%;
+  top: -5%;
+}
