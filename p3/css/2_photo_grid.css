@@ -33,10 +33,11 @@ body{
 }
 
 .gallery-item:hover .image img{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .gallery-item .text{
+    max-width: 90%;
     font: helvetica;
     opacity: 0;
     position: absolute;
@@ -45,13 +46,16 @@ body{
     transform: translate(-50%, -50%);
     /* ^ (transform) Slider teksten til midten, siden det før var punktet øverst til venstre som var sentrert... */
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     pointer-events: none;
     /* ^ Teksten vil ikke være i veien (kunne klikkes på), så man kan klikke på bildet fritt. */
     z-index: 4;
     transition: 0.3s ease-in-out;
     -webkit-backdrop-filter: blur(5px) saturate(1.8);
     backdrop-filter: blur(5px) saturate(1.8);
+
+    /* background-image: radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0)); */
+    background-color: radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
 }
 
 /* 23 min */
