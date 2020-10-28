@@ -1,4 +1,4 @@
-.about-section {
+/*.about-section {
     position: relative;
     width: 40%;
     height: 344px;
@@ -110,10 +110,62 @@ hr.strek2{
     color:#f2f2f2;
     size: 2px;
 }
+*/
+
+
+.cfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hod{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.dronepilot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.bilde{
+    justify-self: center;
+    width: 50%;
+    margin-bottom: 10%;
+    filter: grayscale(100%);
+}
+
+.text{
+    justify-self: left;
+    width: 70%;
+}
+
+@media screen and (max-width: 720px) {
+    .cto, .cfo, .hod, .dronepilot{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2%;
+    }
+    .text{
+        justify-self: center;
+    }
+    .bilde{
+        margin-bottom: 1%;
+    }
+}
 
 
 
-/* The Modal (background) */
+
+
+
+
+
+/*The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
