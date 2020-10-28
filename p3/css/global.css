@@ -28,7 +28,7 @@ body {
     color: #f2f2f2;
     text-align: left;
     text-justify: center;
-    padding: 2% 4%;
+    padding: 3% 4%;
     text-decoration: none;
     font-size: 18px;
 }
@@ -64,7 +64,7 @@ footer {
 
 .brage_logo{
   position: absolute;
-  top: 8px;
+  top: 9px;
   left: 15px;
   width: 80px;
   height: 70px;
