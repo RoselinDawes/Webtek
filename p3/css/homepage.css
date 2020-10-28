@@ -67,6 +67,8 @@
 
 }*/
 
+
+
 #bestemor:hover{
     transition: .5s ease;
     filter: brightness(30%);
@@ -169,6 +171,8 @@ h2{
     grid-auto-rows: 200px;
 }
 
+/*
+
 #house:hover{
     transition: .5s ease;
     filter: brightness(30%);
@@ -183,7 +187,7 @@ h2{
 #bilde1:hover{
     transition: .5s ease;
     filter: brightness(30%);
-}
+}*/
 
 
 
