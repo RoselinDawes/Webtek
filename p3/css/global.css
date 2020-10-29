@@ -6,6 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #202020;
     color: #bebebe;
+    z-index: -1;
 } 
 
 
@@ -15,10 +16,15 @@ body {
     background-color: #353535;
     position: fixed;
     top: 0;
-    height: 90px;
+    /*height: 90px;*/
     width: 100%;
     transition: top 0.3s;
+<<<<<<< Updated upstream
     z-index: 2;
+=======
+    /*overflow: hidden;*/
+  
+>>>>>>> Stashed changes
 }
   
   
@@ -34,12 +40,11 @@ body {
     font-size: 18px;
 }
   
-  /* Change the color of links on hover */
+
 .topnav a:hover {
     color: #a4161a;
 }
-  
-  /* Add a color to the active/current link */
+
 .topnav a.active {
     color: #a4161a;
 }
@@ -48,7 +53,7 @@ body {
 footer {
   
   left: 0;
-  /*top: 0;*/
+  top: 0;
   bottom:0;
   width: 100%;
   background-color: #353535;
