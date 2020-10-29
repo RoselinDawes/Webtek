@@ -1,6 +1,11 @@
 body{
     text-align: center;
 }
+
+h1{
+    padding-top: 2%;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
