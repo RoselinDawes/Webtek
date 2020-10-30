@@ -284,6 +284,7 @@ hr.strek2{
   overflow: hidden;
   background-color: #353535; 
   color: #f2f2f2;
+  text-align: center;
 }
 
 .navbar a {
@@ -292,6 +293,7 @@ hr.strek2{
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
+  
 }
 
 .subnav {
@@ -300,6 +302,7 @@ hr.strek2{
   height: 90px;
   text-align: center;
   
+  
 }
 
 .subnavbtn{
@@ -307,7 +310,7 @@ hr.strek2{
   font-size: 18px;
   color: #f2f2f2;
   text-align: center;
-  margin-top: 13%;
+  margin-top: 11%;
   margin-right: 20%;
 
 }
@@ -318,7 +321,7 @@ hr.strek2{
   border: none;
   outline: none;
   color: #f2f2f2;
-  padding: 16px 20px;
+  padding: 2.5vh 3vh;
   background-color: inherit;
   font-family: inherit;
 }
@@ -335,9 +338,10 @@ hr.strek2{
   color: #a4161a;
   background-color: #353535;
   width: 100%;
-  z-index: 1000;
-  top:90px;
-  
+  z-index: 1;
+  top:15vh;
+  border-top: solid #a4161a;
+  text-align: center;
 
 }
 
@@ -345,10 +349,14 @@ hr.strek2{
   float: right;
   color: #f2f2f2;
   text-decoration: none;
-  border-top: solid #a4161a;
-  padding-left: 9.9%;
-  padding-right: 9.9%;
+  padding-left: 9.5%;
+  padding-right: 9.5%;  
+  text-align: center;
+  
+
 }
+
+
 
 .subnav:hover .subnav-content {
   display: block;

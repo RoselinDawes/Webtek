@@ -33,7 +33,10 @@ body {
     padding: 2% 4%;
     text-decoration: none;
     font-size: 18px;
+    max-width: 100%;
 }
+
+
   
 
 .topnav a:hover {
