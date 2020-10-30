@@ -76,3 +76,86 @@ footer {
 
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #353535; 
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.navbar a {
+  float: right;
+  font-size: 18px;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.subnav {
+  float: right;
+  overflow: hidden;
+  height: 15vh;
+  text-align: center;
+  padding: 2% 4%;
+  
+  
+}
+
+.subnavbtn{
+  float: right;
+  font-size: 18px;
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 11%;
+  margin-right: 20%;
+
+}
+
+
+.subnav .subnavbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: #f2f2f2;
+  padding: 2.5vh 3vh;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  color: #a4161a;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  color: #a4161a;
+  background-color: #353535;
+  width: 100%;
+  z-index: 1;
+  top: 100%;
+  border-top: solid #a4161a;
+  text-align: center;
+
+}
+
+.subnav-content a {
+  float: right;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding-left: 9.5%;
+  padding-right: 9.5%;  
+  text-align: center;
+  
+
+}
+
+
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
