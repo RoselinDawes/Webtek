@@ -37,7 +37,6 @@ input[type=submit]{
 }
 
 .rightside{
-   /* top: 0; */
    position: relative;
     grid-area: right; 
     margin-top: 8%;
@@ -55,13 +54,9 @@ input[type=submit]{
     height: 200px; 
 }
 
-/* #textarea:first-letter{
+/* #textarea:focus:first-letter{
   text-transform: capitalize;
 } */
-
-#textarea:first-letter{
-  text-transform: capitalize;
-}
 
 #textarea:focus{
   color: #353535;
