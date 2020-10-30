@@ -22,7 +22,7 @@ h4 {
     text-align: left;
     padding: 5%;
     margin-top: 8%;
-    margin-left: 30%;
+    margin-left: 10%;
     justify-self: end;
 }
 
@@ -43,12 +43,18 @@ input[type=submit]{
 }
 
 #textarea{
+  color: rgb(190, 190, 190);
     border-radius: 25px;
     border: 2px solid #353535;
     padding: 20px; 
     width: 500px;
     height: 200px; 
 }
+
+#textarea:focus{
+  color: #353535;
+}
+
 #video {
   justify-items: right;
 }
