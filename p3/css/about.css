@@ -299,7 +299,7 @@ hr.strek2{
 .subnav {
   float: right;
   overflow: hidden;
-  height: 90px;
+  height: 15vh;
   text-align: center;
   padding: 2% 4%;
   
@@ -340,7 +340,7 @@ hr.strek2{
   background-color: #353535;
   width: 100%;
   z-index: 1;
-  top:15vh;
+  top:13vh;
   border-top: solid #a4161a;
   text-align: center;
 
