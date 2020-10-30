@@ -26,7 +26,6 @@
     <div class="grid-container">
       <div class="leftside">
         <h1>ORDER</h1>
-        <br /><br />
         <h4>Select service</h4>
         <form>
           <label for="video"> Video </label>
@@ -46,11 +45,19 @@
       </div>
       <div class="rightside">
         <div class="textbox">
-          <label for="order">Your specifications for this order: </label><br />
-          <textarea name="request" rows="12" cols="60" id="textarea">
-            Please describe what you would like the result to be..
+          <h4>Your specifications for this order:</h4>
+          <!--- <label for="order">Your specifications for this order: </label><br />-->
+          <textarea
+            name="request"
+            rows="12"
+            cols="60"
+            id="textarea"
+            onfocus="clearContents(this);"
+          >
+Please describe what you would like the result to be..
                 </textarea
           >
+          <input type="submit" value="Submit order" /><br /><br />
         </div>
       </div>
     </div>
@@ -105,5 +112,6 @@
     </footer>
 
     <script src="js/navbar.js"></script>
+    <script src="js/order.js"></script>
   </body>
 </html>
