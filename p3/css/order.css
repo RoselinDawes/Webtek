@@ -21,16 +21,24 @@ h4 {
     grid-area: left;
     text-align: left;
     padding: 5%;
-    margin-top: 1%;
+    margin-top: 8%;
+    margin-left: 30%;
+    justify-self: end;
 }
 
-.leftside{
-    justify-self: end;
+input[type=submit]{
+  background-color: #a4161a;
+  border: none;
+  color: #f2f2f2;
+  padding: 0.8%;
+  border-radius: 5px;
+  margin-left: 55%;
 }
 
 .rightside{
     grid-area: right; 
-    margin-top: 18%;
+    margin-top: 15%;
+    
     
 }
 
@@ -41,6 +49,17 @@ h4 {
     width: 500px;
     height: 200px; 
 }
+#video {
+  justify-items: right;
+}
+#hours{
+  justify-items: end;
+}
+
+#days{
+  justify-items: end;
+}
+
 
  /*
 form {
