@@ -16,7 +16,7 @@ body {
     background-color: #353535;
     position: fixed;
     top: 0;
-    /*height: 90px;*/
+    height: 90px;
     width: 100%;
     transition: top 0.3s;
     z-index: 2;
@@ -70,8 +70,8 @@ footer {
   position: absolute;
   top: 10%;
   left: 1%;
-  width: 7%;
-  height: 80%;
+  max-width: 7%;
+  max-height: 80%;
   align-items: CENTER; 
 
 }
