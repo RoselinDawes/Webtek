@@ -1,12 +1,13 @@
 h1 {
   margin-left: 10%;
+  padding-top: 2%;
 }
 
 h4 {
   margin-left: 10%;
   display: block;
   border-bottom: 2px solid white;
-  height: 50%;
+  height: 10%;
 }
 
 .grid-container{
@@ -23,7 +24,7 @@ h4 {
     padding: 5%;
     margin-top: 8%;
     margin-left: 10%;
-    justify-self: end;
+    /* justify-self: end; */
 }
 
 input[type=submit]{
@@ -36,19 +37,30 @@ input[type=submit]{
 }
 
 .rightside{
+   /* top: 0; */
+   position: relative;
     grid-area: right; 
-    margin-top: 15%;
-    
-    
+    margin-top: 8%;
+    padding: 5%;
+    text-align: left;
+    margin-right: 10%;
 }
 
 #textarea{
-  color: rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
     border-radius: 25px;
     border: 2px solid #353535;
     padding: 20px; 
     width: 500px;
     height: 200px; 
+}
+
+/* #textarea:first-letter{
+  text-transform: capitalize;
+} */
+
+#textarea:first-letter{
+  text-transform: capitalize;
 }
 
 #textarea:focus{

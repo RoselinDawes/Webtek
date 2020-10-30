@@ -134,22 +134,10 @@ hr.strek2{
 #team, .strek{
     margin-left: 10%;
     margin-right: 10%;
+    text-align: left;
 }
 
-.cfo{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.cto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.hod{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.dronepilot{
+.cfo, .cto, .hod, .dronepilot{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
