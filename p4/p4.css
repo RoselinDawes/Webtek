@@ -1,0 +1,139 @@
+body {
+  max-width: 80ch;
+  margin: auto;
+  font-family: acumin pro;
+  background-color: #202020;
+  color: #bebebe;
+}
+
+#cover {
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#navigasjonsstruktur {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boks {
+  margin: auto;
+  padding: 40px;
+  background-color: #484848;
+}
+
+footer {
+  text-align: center;
+}
+
+#BB_logo_inverted {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hjemmesiden {
+  height: 400px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar_images {
+  width: 100%;
+}
+
+#navbarer {
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+}
+
+#hjemmeside_video {
+  width: 100%;
+}
+
+#hjemmeside_passion {
+  width: 100%;
+}
+
+#hjemmeside_sist {
+  width: 100%;
+}
+
+#video_1 {
+  width: 100%;
+}
+
+#video_2 {
+  width: 100%;
+}
+
+#video_3 {
+  width: 100%;
+}
+
+#video_4 {
+  width: 100%;
+}
+
+#video_5 {
+  width: 100%;
+}
+
+#image_1 {
+  width: 100%;
+}
+
+#image_2 {
+  width: 100%;
+}
+
+#image_3 {
+  width: 100%;
+}
+
+#order {
+  width: 100%;
+}
+
+#about_1 {
+  width: 100%;
+}
+
+#about_2 {
+  width: 100%;
+}
+
+#about_3 {
+  width: 100%;
+}
+
+#about_video {
+  width: 100%;
+}
+
+#about_hover {
+  width: 100%;
+}
+
+#contact {
+  width: 100%;
+}
