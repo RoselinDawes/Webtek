@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>Order</title>
-    <link rel="stylesheet" href="css/order.css">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/2_photo_grid.css">
+    <link rel="stylesheet" href="css/order.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/2_photo_grid.css" />
   </head>
 
   <body>
@@ -16,39 +16,66 @@
       <a href="video.html">Videos</a>
       <div class="subnav">
         <a href="2_photo_grid.html">Images</a>
-          <div class="subnav-content">
-            <a href="category_real_estate.html">Real estate</a>
-            <a href="category_nature.html">Nature</a>
-            <a href="category_adventure.html">Adventure</a>
-            <a href="category_portrait.html">Portraits</a>
-          </div></div>
-      <a href="homepage.html"><img class="brage_logo" src="icons/logo.png" alt="brage_logo" onmouseover="this.src='icons/logo_red3.png'" onmouseout="this.src='icons/logo.png'"></a>
+        <div class="subnav-content">
+          <a href="category_real_estate.html">Real estate</a>
+          <a href="category_nature.html">Nature</a>
+          <a href="category_adventure.html">Adventure</a>
+          <a href="category_portrait.html">Portraits</a>
+        </div>
+      </div>
+      <a href="homepage.html"
+        ><img
+          class="brage_logo"
+          src="icons/logo.png"
+          alt="brage_logo"
+          onmouseover="this.src='icons/logo_red3.png'"
+          onmouseout="this.src='icons/logo.png'"
+      /></a>
     </div>
 
     <h1>ORDER</h1>
-    
+
     <div class="grid-container">
       <div class="leftside">
-        
         <h4>Select service</h4>
-        
-        <form class="service">
-          <label for="video"> Video </label>
-          <input type="checkbox" id="video" name="video" /><br /><br />
-          <label for="image"> Images </label>
-          <input type="checkbox" id="image" name="video" /><br /><br />
-        </form>
 
-        <h4>Duration</h4>
-        
-        <form>
+        <form
+          class="service"
+          id="form"
+          action="mailto:bragebakke@gmail.com"
+          method="post"
+          enctype="text/plain"
+          >
+          <label for="video"> Video </label>
+          <input
+            type="checkbox"
+            id="video"
+            name="video"
+            value="box"
+          /><br><br>
+          <label for="image"> Images </label>
+          <input
+            type="checkbox"
+            id="image"
+            name="video"
+            value="box"
+          /><br><br>
+          
+          <h4>Duration</h4>
+
           <label for="hours">Number of hours:</label>
           <input type="number" id="hours" name="hours" min="1" max="12" />
-          <br/><br />
+          <br><br>
           <label for="days">Number of days:</label>
-          <input type="number" id="days" name="days" min="1" max="10" /><br /><br />
-        
+          <input
+            type="number"
+            id="days"
+            name="days"
+            min="1"
+            max="10"
+          /><br><br>
         </form>
+        
       </div>
 
       <div class="rightside">
@@ -64,12 +91,12 @@
           >
 Please describe what you would like the result to be..
           </textarea>
+          <br /><br />
           <input type="submit" value="Submit order" /><br /><br />
         </div>
-    
       </div>
     </div>
-
+  
     <footer class="footer">
       <a
         href="http://linkedin.com/in/brage-fæhn-bakke-5854751ba/"

@@ -1,32 +1,36 @@
 h1 {
-  margin-left: 10%;
   padding-top: 2%;
   text-align: left;
+  margin-left: 5%;
 }
 
 h4 {
-  margin-left: 10%;
+  margin-left: 1%;
   display: block;
+  padding-bottom: 2%;
   border-bottom: 2px solid white;
   height: 10%;
 }
 
 .grid-container{
-    display: grid;
-    grid-template-areas: 'left right';
-    grid-template-columns: 1fr 1fr;
-    grid-gap:8%;
+  display: grid;
+  grid-template-areas: 'left right';
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 8%;
    
 }
 
+
+
 .leftside{
-    grid-area: left;
-    text-align: left;
-    padding: 5%;
-    margin-top: 8%;
-    margin-left: 10%;
+  grid-area: left;
+  text-align: left;
+  padding: 5%;
+  margin-top: 8%;
+  margin-left: 10%;
     /* justify-self: end; */
 }
+
 
 input[type=submit]{
   background-color: #a4161a;
@@ -34,25 +38,30 @@ input[type=submit]{
   color: #f2f2f2;
   padding: 0.8%;
   border-radius: 5px;
-  margin-left: 55%;
+  margin-left: 60%;
+  width: 10em;
+  height: 3em;
 }
 
 .rightside{
-   position: relative;
-    grid-area: right; 
-    margin-top: 8%;
-    padding: 5%;
-    text-align: left;
-    margin-right: 10%;
+  position: relative;
+  grid-area: right; 
+  margin-top: 4%;
+  padding: 5%;
+  text-align: left;
+  margin-right: 10%;
 }
 
+
+
 #textarea{
-    color: rgb(190, 190, 190);
-    border-radius: 25px;
-    border: 2px solid #353535;
-    padding: 20px; 
-    width: 500px;
-    height: 200px; 
+  color: rgb(190, 190, 190);
+  border-radius: 25px;
+  border: 2px solid #353535;
+  padding: 20px; 
+  width: 500px;
+  height: 200px; 
+  margin-left: 2%;
 }
 
 /* #textarea:focus:first-letter{
@@ -62,6 +71,7 @@ input[type=submit]{
 #textarea:focus{
   color: #353535;
 }
+/*
 
 #video {
   justify-items: right;
@@ -72,6 +82,36 @@ input[type=submit]{
 
 #days{
   justify-items: end;
+}
+
+#form{
+  text-align: end;
+}
+
+#form2{
+  text-align: end;
+}*/
+
+label{
+  display: inline-block;
+  text-align: left;
+  place-self: start;
+}
+
+#hours{
+  margin-left: 50%;
+}
+
+#days{
+  margin-left: 51.7%;
+}
+
+#video{
+  margin-left: 82%;
+}
+
+#image{
+  margin-left: 78.7%;
 }
 
 
