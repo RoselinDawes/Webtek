@@ -5,7 +5,7 @@ h1 {
 }
 
 h4 {
-  margin-left: 10%;
+  margin-left: 1%;
   display: block;
   border-bottom: 2px solid white;
   height: 10%;
@@ -14,9 +14,13 @@ h4 {
 .grid-container{
     display: grid;
     grid-template-areas: 'left right';
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-gap:8%;
    
+}
+
+.title {
+  top: 20%;
 }
 
 .leftside{
@@ -28,23 +32,28 @@ h4 {
     /* justify-self: end; */
 }
 
+
 input[type=submit]{
   background-color: #a4161a;
   border: none;
   color: #f2f2f2;
   padding: 0.8%;
   border-radius: 5px;
-  margin-left: 55%;
+  margin-left: 60%;
+  width: 10em;
+  height: 3em;
 }
 
 .rightside{
    position: relative;
     grid-area: right; 
-    margin-top: 8%;
+    margin-top: 4%;
     padding: 5%;
     text-align: left;
     margin-right: 10%;
 }
+
+
 
 #textarea{
     color: rgb(190, 190, 190);
@@ -53,6 +62,7 @@ input[type=submit]{
     padding: 20px; 
     width: 500px;
     height: 200px; 
+    margin-left: 2%;
 }
 
 /* #textarea:focus:first-letter{
@@ -72,6 +82,14 @@ input[type=submit]{
 
 #days{
   justify-items: end;
+}
+
+#form{
+  text-align: end;
+}
+
+#form2{
+  text-align: end;
 }
 
 
