@@ -1,34 +1,33 @@
 h1 {
-  margin-left: 10%;
   padding-top: 2%;
   text-align: left;
+  margin-left: 5%;
 }
 
 h4 {
   margin-left: 1%;
   display: block;
+  padding-bottom: 2%;
   border-bottom: 2px solid white;
   height: 10%;
 }
 
 .grid-container{
-    display: grid;
-    grid-template-areas: 'left right';
-    grid-template-columns: 1fr 2fr;
-    grid-gap:8%;
+  display: grid;
+  grid-template-areas: 'left right';
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 8%;
    
 }
 
-.title {
-  top: 20%;
-}
+
 
 .leftside{
-    grid-area: left;
-    text-align: left;
-    padding: 5%;
-    margin-top: 8%;
-    margin-left: 10%;
+  grid-area: left;
+  text-align: left;
+  padding: 5%;
+  margin-top: 8%;
+  margin-left: 10%;
     /* justify-self: end; */
 }
 
@@ -45,24 +44,24 @@ input[type=submit]{
 }
 
 .rightside{
-   position: relative;
-    grid-area: right; 
-    margin-top: 4%;
-    padding: 5%;
-    text-align: left;
-    margin-right: 10%;
+  position: relative;
+  grid-area: right; 
+  margin-top: 4%;
+  padding: 5%;
+  text-align: left;
+  margin-right: 10%;
 }
 
 
 
 #textarea{
-    color: rgb(190, 190, 190);
-    border-radius: 25px;
-    border: 2px solid #353535;
-    padding: 20px; 
-    width: 500px;
-    height: 200px; 
-    margin-left: 2%;
+  color: rgb(190, 190, 190);
+  border-radius: 25px;
+  border: 2px solid #353535;
+  padding: 20px; 
+  width: 500px;
+  height: 200px; 
+  margin-left: 2%;
 }
 
 /* #textarea:focus:first-letter{
@@ -72,6 +71,7 @@ input[type=submit]{
 #textarea:focus{
   color: #353535;
 }
+/*
 
 #video {
   justify-items: right;
@@ -90,12 +90,28 @@ input[type=submit]{
 
 #form2{
   text-align: end;
-}
+}*/
 
 label{
-  display: block;
-  margin-left: 10%;
+  display: inline-block;
   text-align: left;
+  place-self: start;
+}
+
+#hours{
+  margin-left: 50%;
+}
+
+#days{
+  margin-left: 51.7%;
+}
+
+#video{
+  margin-left: 82%;
+}
+
+#image{
+  margin-left: 78.7%;
 }
 
 
