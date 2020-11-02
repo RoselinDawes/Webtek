@@ -92,6 +92,12 @@ input[type=submit]{
   text-align: end;
 }
 
+label{
+  display: block;
+  margin-left: 10%;
+  text-align: left;
+}
+
 
  /*
 form {
