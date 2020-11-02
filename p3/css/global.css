@@ -50,7 +50,6 @@ body {
 
 
 footer {
-  
   left: 0;
   top: 0;
   bottom:0;
@@ -60,12 +59,15 @@ footer {
 }
 
 
-#yt, #in, #face, #insta, #vimeo {
+#yt, #in, #face, #insta, #vimeo, #linkdin_lenke{
   position: relative;
   width: 3%;
   padding: 1.5%;
 }
 
+#yt:hover{
+  background-image: url('/p3/icons/youtube_red.png') ;
+}
 
 .brage_logo{
   position: absolute;

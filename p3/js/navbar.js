@@ -10,12 +10,6 @@ function scrollFunction() {
     document.querySelector(".topnav").style.top = "-90px";
   }
 }*/
-
-
-
-
-
-
 let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   let currentScrollPos = window.pageYOffset;
@@ -26,3 +20,5 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
