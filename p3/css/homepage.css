@@ -15,12 +15,12 @@
 
 */
 
-
+/*
 .part1 {
     display: grid;
     /*margin-top: 90px;*/
     /*grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
-    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-columns: repeat(2, 1fr);
     grid-gap: 6px;
     margin-bottom: 6px;
 }
@@ -64,6 +64,7 @@
 .screen{
     position: relative;
     /*margin-top: 7%;*/
+    /*
 }
 
 video{
@@ -139,3 +140,4 @@ h2{
 
 
 
+*/
