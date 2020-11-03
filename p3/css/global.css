@@ -63,12 +63,13 @@ body {
 
 .navbar a {
   float: right;
-  font-size: 18px;
+  font-size: 1.5vw;
   color: #f2f2f2;
   text-align: center;
   text-decoration: none;
 }
 /*SUBNAV*/
+/*
 .subnav {
   float: right;
   overflow: hidden;
@@ -101,8 +102,8 @@ body {
   color: #a4161a;
 }
 
-.subnav-content {
-  /*display: none;*/
+.subnav-content {*/
+  /*display: none;*//*
   position: absolute;
   left: 0;
   color: #a4161a;
@@ -126,6 +127,7 @@ body {
 .subnav:hover .subnav-content {
   display: block;
 }
+*/
 
 /*FOOTER*/
 footer {
@@ -134,7 +136,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #353535;
-  text-align: center;
+  text-align: cent  er;
 }
 
 #yt,

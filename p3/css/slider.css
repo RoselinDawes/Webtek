@@ -19,31 +19,31 @@ body, #slider, .wrap, .slide-content{
 .a_slide1{background-image: url('../img/seil.jpg')}
 .a_slide2{background-image: url("../img/fakkel.jpg")}
 .a_slide3{background-image: url("../img/flamme.jpg")}
-.a_slide4{background-image: url("../img/innerdalen/bilder 3.jpg")}
-.a_slide5{background-image: url("../img/innerdalen/bilder 6.jpg")}
-.a_slide6{background-image: url("../img/innerdalen/bilder 15.jpg")}
-.a_slide7{background-image: url("../img/innerdalen/bilder 20.jpg")}
-.a_slide8{background-image: url("../img/innerdalen/bilder 22.jpg")}
-.a_slide9{background-image: url("../img/innerdalen/bilder 27.jpg")}
-.a_slide10{background-image: url("../img/innerdalen/bilder 35.jpg")}
+.a_slide4{background-image: url("../img/innerdalen/bilder3.jpg")}
+.a_slide5{background-image: url("../img/innerdalen/bilder6.jpg")}
+.a_slide6{background-image: url("../img/innerdalen/bilder15.jpg")}
+.a_slide7{background-image: url("../img/innerdalen/bilder20.jpg")}
+.a_slide8{background-image: url("../img/innerdalen/bilder22.jpg")}
+.a_slide9{background-image: url("../img/innerdalen/bilder27.jpg")}
+.a_slide10{background-image: url("../img/innerdalen/bilder35.jpg")}
 
 /* Nature */
 .n_slide1{background-image: url('../img/beito.jpg')}
 .n_slide2{background-image: url("../img/fjellet.jpg")}
-.n_slide3{background-image: url("../img/innerdalen/bilder 1.jpg")}
-.n_slide4{background-image: url("../img/innerdalen/bilder 2.jpg")}
-.n_slide5{background-image: url("../img/innerdalen/bilder 16.jpg")}
-.n_slide6{background-image: url("../img/innerdalen/bilder 20.jpg")}
-.n_slide7{background-image: url("../img/innerdalen/bilder 37.jpg")}
+.n_slide3{background-image: url("../img/innerdalen/bilder1.jpg")}
+.n_slide4{background-image: url("../img/innerdalen/bilder2.jpg")}
+.n_slide5{background-image: url("../img/innerdalen/bilder16.jpg")}
+.n_slide6{background-image: url("../img/innerdalen/bilder20.jpg")}
+.n_slide7{background-image: url("../img/innerdalen/bilder37.jpg")}
 
 /* Portrait */
-.p_slide1{background-image: url('../img/innerdalen/bilder 32.jpg')}
-.p_slide2{background-image: url("../img/innerdalen/bilder 5.jpg")}
-.p_slide3{background-image: url("../img/innerdalen/bilder 7.jpg")}
-.p_slide4{background-image: url("../img/innerdalen/bilder 13.jpg")}
-.p_slide5{background-image: url("../img/innerdalen/bilder 9.jpg")}
-.p_slide6{background-image: url("../img/innerdalen/bilder 33.jpg")}
-.p_slide7{background-image: url("../img/innerdalen/bilder 31.jpg")}
+.p_slide1{background-image: url('../img/innerdalen/bilder32.jpg')}
+.p_slide2{background-image: url("../img/innerdalen/bilder5.jpg")}
+.p_slide3{background-image: url("../img/innerdalen/bilder7.jpg")}
+.p_slide4{background-image: url("../img/innerdalen/bilder13.jpg")}
+.p_slide5{background-image: url("../img/innerdalen/bilder9.jpg")}
+.p_slide6{background-image: url("../img/innerdalen/bilder33.jpg")}
+.p_slide7{background-image: url("../img/innerdalen/bilder31.jpg")}
 
 /* Real Estate */
 .re_slide1{background-image: url('../img/bestemor.jpg')}
