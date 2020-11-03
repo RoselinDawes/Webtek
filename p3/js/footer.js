@@ -1,16 +1,54 @@
 const foot = document.getElementById("foot");
 
-/*
-function icon_red() {
-    document.getElementById("insta").src='icons/instagram_red.png';
-}*/ 
+function red_insta(){
+    document.getElementById("insta").src="icons/instagram_red.png";
+    document.getElementById("insta").addEventListener("mouseout", normal_insta);
+}
 
-/*function changePic1() {
-    document.getElementById("insta").src = 'icons/instagram_red.png';
-       }
-function changePic22(){
-    document.getElementById("insta").src = 'icons/insta2.png';
-}*/
+function normal_insta(){
+    document.getElementById("insta").src="icons/insta2.png";
+    document.getElementById("insta").addEventListener("mouseover", red_insta);
+}
+
+function red_linkdin(){
+    document.getElementById("linkdin_lenke").src="icons/linkdin_red.png";
+    document.getElementById("linkdin_lenke").addEventListener("mouseout", normal_linkdin);
+}
+
+function normal_linkdin(){
+    document.getElementById("linkdin_lenke").src="icons/linkdin.png";
+    document.getElementById("linkdin_lenke").addEventListener("mouseover", red_linkdin);
+}
+
+function red_face(){
+    document.getElementById("face").src="icons/facebook_red.png";
+    document.getElementById("face").addEventListener("mouseout", normal_face);
+}
+
+function normal_face(){
+    document.getElementById("face").src="icons/face.png";
+    document.getElementById("face").addEventListener("mouseover", red_face);
+}
+
+function red_yt(){
+    document.getElementById("yt").src="icons/youtube_red.png";
+    document.getElementById("yt").addEventListener("mouseout", normal_yt);
+}
+
+function normal_yt(){
+    document.getElementById("yt").src="icons/youtube.png";
+    document.getElementById("yt").addEventListener("mouseover", red_yt);
+}
+
+function red_vimeo(){
+    document.getElementById("vimeo").src="icons/vimeo_red.png";
+    document.getElementById("vimeo").addEventListener("mouseout", normal_vimeo);
+}
+
+function normal_vimeo(){
+    document.getElementById("vimeo").src="icons/vimeo.png";
+    document.getElementById("vimeo").addEventListener("mouseover", red_vimeo);
+}
 
 function footer() {
     const insta = document.createElement("a");
@@ -19,6 +57,8 @@ function footer() {
     const insta_icon = document.createElement("img");
     insta_icon.id="insta";
     insta_icon.src = "icons/insta2.png";
+    insta_icon.addEventListener("mouseover", red_insta);
+    insta_icon.addEventListener("mouseout", normal_insta);
     foot.appendChild(insta)
     foot.appendChild(insta_icon)
     insta.appendChild(insta_icon);
@@ -30,6 +70,8 @@ function footer() {
     const linkdin_icon = document.createElement("img");
     linkdin_icon.id="linkdin_lenke";
     linkdin_icon.src = "icons/linkdin.png";
+    linkdin_icon.addEventListener("mouseover", red_linkdin);
+    linkdin_icon.addEventListener("mouseout", normal_linkdin);
     foot.appendChild(linkdin_lenke)
     foot.appendChild(linkdin_icon)
     linkdin_lenke.appendChild(linkdin_icon);
@@ -39,8 +81,10 @@ function footer() {
     face.href = "https://www.facebook.com/profile.php?id=100000472141045";
     face.target = "_blank";
     const face_icon = document.createElement("img");
-    face_icon.id="linkdin_lenke";
+    face_icon.id="face";
     face_icon.src = "icons/face.png";
+    face_icon.addEventListener("mouseover", red_face);
+    face_icon.addEventListener("mouseout", normal_face);
     foot.appendChild(face)
     foot.appendChild(face_icon)
     face.appendChild(face_icon);
@@ -50,8 +94,10 @@ function footer() {
     yt.href = "https://www.youtube.com/user/BigBawsB/featured";
     yt.target = "_blank";
     const yt_icon = document.createElement("img");
-    yt_icon.id="linkdin_lenke";
+    yt_icon.id="yt";
     yt_icon.src = "icons/youtube.png";
+    yt_icon.addEventListener("mouseover", red_yt);
+    yt_icon.addEventListener("mouseout", normal_yt);
     foot.appendChild(yt)
     foot.appendChild(yt_icon)
     yt.appendChild(yt_icon);
@@ -61,68 +107,19 @@ function footer() {
     vimeo.href = "https://vimeo.com/user31805633"; 
     vimeo.target = "_blank";
     const vimeo_icon = document.createElement("img");
-    vimeo_icon.id="linkdin_lenke";
+    vimeo_icon.id="vimeo";
     vimeo_icon.src = "icons/vimeo.png";
+    vimeo_icon.addEventListener("mouseover", red_vimeo);
+    vimeo_icon.addEventListener("mouseout", normal_vimeo);
     foot.appendChild(vimeo)
     foot.appendChild(vimeo_icon)
     vimeo.appendChild(vimeo_icon);
 
 }
 
-    /*function hover(element){
-        element.setAttribute('src', 'icons/instagram_red.png');
-    }
-    function unhover(element) {
-        element.setAttribute('src', '/icons/insta2.png');
-    }
-*/
-    /*let insta_icon = document.getElementById("img");
-    
-    
-    insta_icon.onmouseout = function() {
-        this.src = 'icons/insta2.png';
 
-    };
-    insta_icon.onmouseover = function() {
-        this.src = 'icons/instagram_red.png';
-    };*/
-
-
-    /*insta_icon.addEventListener = ('mouseover', function(){
-        insta_icon.src = "icons/instagram_red.png"
-    })
-    insta_icon.addEventListener = ('mouseout', function(){
-        insta_icon.src = "icons/insta2.png"
-    })*/
-    
-    /*document.querySelectorAll('icons/insta2.png').addEventListener('mouseover', function() {
-        this.src = 'icons/instagram_red.png';
-    });*/
-    /*insta_icon.alt="instagram"*/
-
-    
-
- 
-    
- 
-    /*let images = document.getElementsByTagName("image");
-    for(let i = 0; i < images.length; i++) {
-    var image = images[i];
-    image.onclick = function(event) {
-         window.location.href = this.id + url('https://www.instagram.com/brage.bakke/?fbclid=IwAR0IkPLdy1p771G5g7wyMZFRgUw2z9Up44kO54Ojsgapgfc0W_mxoPpqEqU');
-    };*/
-
-    /*document.getElementById("insta").src="icons/instagram_red";
-    insta_icon.onmouseover="this.src='icons/instagram_red.png'";
-    insta_icon.onmouseout="this.src='icons/insta2.png'";   
-    */
-    
-    
-/*icon_red()  */
 footer()
-/*changePic1()
-changePic22()
-*/
+
 
 
 /*Link: https://stackoverflow.com/questions/41784161/javascript-change-image-when-onmouseover-and-onmouseout */
