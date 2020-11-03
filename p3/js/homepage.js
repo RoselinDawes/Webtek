@@ -1,5 +1,5 @@
 let i = 0; 
-let images1 = ["img/beito.jpg", "img/innerdalen/bilder 36.jpg", "img/innerdalen/bilder 1.jpg"];
+let images1 = ["img/beito.jpg", "img/innerdalen/bilder36.jpg", "img/innerdalen/bilder1.jpg"];
 let time = 3000;
 
 
@@ -32,7 +32,7 @@ function changeimg2(){
 
 
 
-let images3 = ["img/innerdalen/bilder 20.jpg", "img/innerdalen/bilder 3.jpg", "img/flamme.jpg"]
+let images3 = ["img/innerdalen/bilder20.jpg", "img/innerdalen/bilder3.jpg", "img/flamme.jpg"]
 let l = 0;
 
 function changeimg3(){
@@ -47,7 +47,7 @@ function changeimg3(){
     setTimeout("changeimg3()", time);
 }
 
-let images4 = ["img/innerdalen/bilder 11.jpg", "img/innerdalen/bilder 31.jpg", "img/innerdalen/bilder 7.jpg"]
+let images4 = ["img/innerdalen/bilder11.jpg", "img/innerdalen/bilder31.jpg", "img/innerdalen/bilder7.jpg"]
 let m = 0;
 
 function changeimg4(){
