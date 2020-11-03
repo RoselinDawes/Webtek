@@ -70,7 +70,13 @@
 
     <div class="aboutBrage">
       <div class="imgBrage">
-        <img src="img/brage.PNG" id="brage" alt="brage" style="width: 100%" />
+        <img
+          src="img/brage.PNG"
+          id="brage"
+          alt="brage"
+          style="width: 100%"
+          onclick="loadVideo()"
+        />
       </div>
       <div class="textBrage">
         <h1>BRAGE BAKKE</h1>
@@ -82,6 +88,17 @@
           Norwegian University of Science and Technology. As the CEO of Brage
           Bakke AS is he the face of the company as well as the owner.
         </p>
+      </div>
+      <div id="videoPlayer">
+        <iframe
+          src="https://player.vimeo.com/video/475024754"
+          id="introvideo"
+          width="640"
+          height="360"
+          class="video"
+        >
+          <source type="video/mp4" />
+        </iframe>
       </div>
     </div>
 
@@ -178,7 +195,6 @@
       </div>
     </div>
     <div id="myModal" class="modal">
-      <span class="close">&times;</span>
       <img class="modal-content" id="img01" />
       <div id="caption"></div>
     </div>
@@ -188,5 +204,6 @@
     <script src="js/navbar.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/ssimg.js"></script>
+    <script src="js/video.js"></script>
   </body>
 </html>
