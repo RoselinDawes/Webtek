@@ -15,6 +15,10 @@
   text-align: justify;
 }
 
+#videoPlayer {
+  display: none;
+}
+
 #team,
 .strek {
   margin-left: 10%;
