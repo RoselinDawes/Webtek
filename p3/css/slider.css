@@ -79,6 +79,7 @@ body, #slider, .wrap, .slide-content{
 #arrow-left{
     border-width: 30px 40px 30px 0;
     border-color: transparent white transparent transparent;
+    opacity: 50%;
     left: 0;
     margin-left: 30px;
 }
@@ -86,8 +87,13 @@ body, #slider, .wrap, .slide-content{
 #arrow-right{
     border-width: 30px 0 30px 40px;
     border-color: transparent transparent transparent white;
+    opacity: 50%;
     right: 0;
     margin-right: 30px;
 }
 
-/*Lagd med inspirasjon fra YouTuber Traversy Media: https://www.youtube.com/watch?v=7ZO2RTMNSAY&t=917s */
+#arrow-left:hover, #arrow-right:hover{
+    opacity: 100%;
+}
+
+/*Lagde dette slideshowet med hjelp fra YouTuber Traversy Media: https://www.youtube.com/watch?v=7ZO2RTMNSAY&t=917s */
