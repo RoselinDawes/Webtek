@@ -4,7 +4,7 @@ let time = 3000;
 
 
 function changeimg(){
-    document.slide1.src = images1[i];
+    document.querySelector("#slide1").src = images1[i];
 
     if (i < images1.length - 1){
         i++;
@@ -19,7 +19,7 @@ let images2 = ["img/Bestemor.jpg", "img/Bestemor2.jpg"]
 let j = 0;
 
 function changeimg2(){
-    document.slide2.src = images2[j];
+    document.querySelector("#slide2").src = images2[j];
 
     if (j < images2.length - 1){
         j++;
@@ -36,7 +36,7 @@ let images3 = ["img/innerdalen/bilder20.jpg", "img/innerdalen/bilder3.jpg", "img
 let l = 0;
 
 function changeimg3(){
-    document.slide3.src = images3[l];
+    document.querySelector("#slide3").src = images3[l];
 
     if (l < images3.length - 1){
         l++;
@@ -51,7 +51,7 @@ let images4 = ["img/innerdalen/bilder11.jpg", "img/innerdalen/bilder31.jpg", "im
 let m = 0;
 
 function changeimg4(){
-    document.slide4.src = images4[m];
+    document.querySelector("#slide4").src = images4[m];
 
     if (m < images4.length - 1){
         m++;

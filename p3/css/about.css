@@ -83,6 +83,10 @@
   cursor: pointer;
 }
 
+#introvideo{
+  border: 0;
+}
+
 .videostyle{
   display: flex;
   width: 100%;
