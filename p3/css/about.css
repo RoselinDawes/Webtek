@@ -74,6 +74,10 @@
   }
 }
 
+#ingrid:hover, #herman:hover, #roselin:hover, #hanna:hover{
+  opacity: 70%;
+}
+
 /*The Modal (background) */
 /*.modal {
     display: none; */ /* Hidden by default */
