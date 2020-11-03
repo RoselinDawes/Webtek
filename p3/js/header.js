@@ -5,13 +5,10 @@ navbar.id = "navbar";
 navbar.className = "navbar";
 topnav.appendChild(navbar);
 
-
-
 function red_logo(){
     document.getElementById("logo").src="icons/logo_red3.png";
     document.getElementById("logo").addEventListener("mouseout", normal_logo);
 }
-
 function normal_logo(){
     document.getElementById("logo").src="icons/logo.png";
     document.getElementById("logo").addEventListener("mouseover", red_logo);
@@ -36,7 +33,6 @@ function onhover(){
     console.log("portraits: " + portraits);
     portraits.appendChild(portraits_tekst);
     /*subnavbtn.appendChild(portraits);*/
-
 
 function menubar(){
     const contact = document.createElement("a");
@@ -88,8 +84,6 @@ function menubar(){
     console.log("portraits: " + portraits);
     portraits.appendChild(portraits_tekst);
     subnavbtn.appendChild(portraits);*/
-
-
    
     const logo = document.createElement("a");
     logo.href = "homepage.html";
