@@ -1,4 +1,4 @@
-/*h1 {
+h1 {
   padding-top: 2%;
   text-align: left;
   margin-left: 5%;
@@ -12,27 +12,23 @@ h4 {
   height: 10%;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
-  grid-template-areas: 'left right';
+  grid-template-areas: "left right";
   grid-template-columns: 1fr 2fr;
   grid-gap: 8%;
-   
 }
 
-
-
-.leftside{
+.leftside {
   grid-area: left;
   text-align: left;
   padding: 5%;
   margin-top: 8%;
   margin-left: 10%;
-    /* justify-self: end; *//*
+  /* justify-self: end; */
 }
 
-
-input[type=submit]{
+input[type="submit"] {
   background-color: #a4161a;
   border: none;
   color: #f2f2f2;
@@ -43,79 +39,67 @@ input[type=submit]{
   height: 3em;
 }
 
-.rightside{
+.rightside {
   position: relative;
-  grid-area: right; 
+  grid-area: right;
   margin-top: 4%;
   padding: 5%;
   text-align: left;
   margin-right: 10%;
 }
 
-
-
-#textarea{
+#textarea {
   color: rgb(190, 190, 190);
   border-radius: 25px;
   border: 2px solid #353535;
-  padding: 20px; 
+  padding: 20px;
   width: 500px;
-  height: 200px; 
+  height: 200px;
   margin-left: 2%;
 }
 
 /* #textarea:focus:first-letter{
   text-transform: capitalize;
-} *//*
+} */
 
-#textarea:focus{
+#textarea:focus {
   color: #353535;
 }
-/*
 
 #video {
   justify-items: right;
 }
-#hours{
+#hours {
   justify-items: end;
 }
 
-#days{
+#days {
   justify-items: end;
 }
 
-#form{
-  text-align: end;
-}
-
-#form2{
-  text-align: end;
-}*//*
-
-label{
+label {
   display: inline-block;
   text-align: left;
   place-self: start;
 }
 
-#hours{
+#hours {
   margin-left: 50%;
 }
 
-#days{
+#days {
   margin-left: 51.7%;
 }
 
-#video{
+#video {
   margin-left: 82%;
 }
 
-#image{
+#image {
   margin-left: 78.7%;
 }
 
-
- /*
+/*
 form {
   width: 30%;
   margin-left: 10%;

@@ -1,55 +1,54 @@
 /*UNIVERSELL CSS*/
 body {
-    max-width: 100%;
-    margin: auto;
-    margin-top: 90px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #202020;
-    color: #f2f2f2;
-    z-index: -1;
-    line-height: 1.6;
-} 
+  max-width: 100%;
+  margin: auto;
+  margin-top: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #202020;
+  color: #f2f2f2;
+  z-index: -1;
+  line-height: 1.6;
+}
 /*NAVBAREN*/
 .topnav {
-    background-color: #353535;
-    position: fixed;
-    top: 0;
-    height: 90px;
-    width: 100%;
-    transition: top 0.3s;
-    z-index: 2;
+  background-color: #353535;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 2;
 }
 .topnav a {
-
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: left;
-    text-justify: center;
-    padding: 2% 4%;
-    text-decoration: none;
-    font-size: 18px;
-    max-width: 100%;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  text-justify: center;
+  padding: 2% 4%;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 100%;
 }
 .topnav a:hover {
-    color: #a4161a;
+  color: #a4161a;
 }
 
 .topnav a.active {
-    color: #a4161a;
+  color: #a4161a;
 }
-.brage_logo{
+.brage_logo {
   position: absolute;
   top: 10%;
   left: 1%;
   max-width: 7%;
   max-height: 80%;
-  align-items: CENTER; 
+  align-items: CENTER;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #353535; 
+  background-color: #353535;
   color: #f2f2f2;
   text-align: center;
 }
@@ -70,7 +69,7 @@ body {
   padding: 2% 4%;
 }
 
-.subnavbtn{
+.subnavbtn {
   float: right;
   font-size: 18px;
   color: #f2f2f2;
@@ -80,7 +79,7 @@ body {
 }
 
 .subnav .subnavbtn {
-  font-size: 18px;  
+  font-size: 18px;
   border: none;
   outline: none;
   color: #f2f2f2;
@@ -89,7 +88,8 @@ body {
   font-family: inherit;
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
+.navbar a:hover,
+.subnav:hover .subnavbtn {
   color: #a4161a;
 }
 
@@ -111,7 +111,7 @@ body {
   color: #f2f2f2;
   text-decoration: none;
   padding-left: 9.5%;
-  padding-right: 9.5%;  
+  padding-right: 9.5%;
   text-align: center;
 }
 
@@ -123,601 +123,23 @@ body {
 footer {
   left: 0;
   top: 0;
-  bottom:0;
+  bottom: 0;
   width: 100%;
   background-color: #353535;
   text-align: center;
 }
 
-#yt, #in, #face, #insta, #vimeo, #linkdin_lenke{
+#yt,
+#in,
+#face,
+#insta,
+#vimeo,
+#linkdin_lenke {
   position: relative;
   width: 3%;
   padding: 1.5%;
 }
 
-#yt:hover{
-  background-image: url('/p3/icons/youtube_red.png') ;
+#yt:hover {
+  background-image: url("/p3/icons/youtube_red.png");
 }
-
-/*ABOUT.HTML*/
-.aboutBrage{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.imgBrage{
-  justify-self: center;
-  width: 60%;
-  padding: 5%;
-}
-.textBrage{
-  justify-self: left;
-  width: 70%;
-  padding: 5%;
-  text-align: justify;
-}
-
-#team, .strek{
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: left;
-}
-
-.cfo, .cto, .hod, .dronepilot{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.bilde{
-  justify-self: center;
-  width: 50%;
-  margin-bottom: 10%;
-  filter: grayscale(100%);
-}
-
-.tekst{
-  justify-self: left;
-  width: 70%;
-  text-align: justify;
-}
-
-.cfo > :nth-child(2){
-  margin-top: 4%;
-}
-
-@media screen and (max-width: 720px) {
-  .cto, .cfo, .hod, .dronepilot, .aboutBrage{
-      display: grid;
-      grid-template-columns: 1fr;
-      padding: 2%;
-  }
-  .tekst, .textBrage{
-      justify-self: center;
-      padding-top: 3%;
-  }
-
-  .bilde{
-      margin-bottom: 2%;
-      padding-top: 4%;
-  }
-
-  .textBrage > h1, h2{
-      text-align: center;
-  }
-}
-
-/*The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-
-/*CONTACT.HTML*/
-form {
-  margin-left: 30%;
-  text-align: left;
-  color: #f2f2f2;
-}
-
-input[type=text]{
-  width: 30%;
-  box-sizing: border-box;
-  border: 2% solid #f2f2f2;
-  border-radius: 5px;
-  padding: 4px;
-}
-
-input[type=email]{
-  width: 60.5%;
-  box-sizing: border-box;
-  border: 2% solid #f2f2f2;
-  border-radius: 5px;
-  padding: 4px;
-}
-
-textarea{
-  box-sizing: border-box;
-  border: 2% solid #f2f2f2;
-  border-radius: 5px;
-  padding: 4px;
-  width: 60.5%;
-}
-
-input[type=submit]{
-  background-color: #a4161a;
-  border: none;
-  color: #f2f2f2;
-  padding: 0.8%;
-  border-radius: 5px;
-  margin-left: 55%;
-}
-
-#backVideo {
-  position: fixed;
-  z-index: -1;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.contacttext {
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-
-/*HOMEPAGE.HTML*/
-.part1 {
-  display: grid;
-  /*margin-top: 90px;*/
-  /*grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 6px;
-  margin-bottom: 6px;
-}
-
-@media screen and (max-width: 720px) {
-  .part1{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-
-#bestemor:hover{
-  transition: .5s ease;
-  filter: brightness(30%);
-}
-
-#fakkel:hover{
-  transition: .5s ease;
-  filter: brightness(30%);
-}
-
-#seil:hover{
-  transition: .5s ease;
-  filter: brightness(30%);
-}
-
-#beito:hover{
-  transition: .5s ease;
-  filter: brightness(30%);
-}
-
-#forside{
-  margin-top: 5%;
-}
-
-.screen{
-  position: relative;
-  /*margin-top: 7%;*/
-}
-
-video{
-  width: 100%;
-}
-
-.part2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #f2f2f2;
-  color: #202020;
-}
-
-.photo{
-  width: 50%;
-  padding-left: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-.text{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  align-self: center;
-  text-align: justify;
-  padding-right: 20%;
-  padding-left: 10%;
-}
-
-.text > div:nth-child(1){
-  font-size: 25px;
-  padding-bottom: 10%;
-}
-
-#white_text{
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
-}
-
-.part3{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10%;
-  gap: 10%;
-  grid-auto-rows: 200px;
-}
-
-.part4{
-  width: 80%;
-  padding-left: 10%;
-  text-align: justify;
-  padding-bottom: 6%;
-}
-
-.part4 > #B_portofolio{
-  text-align: center;
-}
-
-/*2_photo_grid.HTML*/
-body{
-  text-align: center;
-}
-
-h1{
-  padding-top: 2%;
-}
-
-.container{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: 250px;
-  grid-gap: 10px;
-  grid-auto-flow: dense;
-  /*^ Fyller inn hull i griden */
-}
-
-.gallery-item{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.gallery-item .image{
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.gallery-item .image img{
-  width: 100%;
-  height:100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  /* Betyr at du får midten av bidlet hvis det cropper ut deler (fokus-punkt: 50%-50%) */
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
-}
-
-.gallery-item:hover .image img{
-  transform: scale(1.2);
-  filter: brightness(30%);
-}
-
-.gallery-item .text{
-  max-width: 90%;
-  font: helvetica;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* ^ (transform) Slider teksten til midten, siden det før var punktet øverst til venstre som var sentrert... */
-  color: white;
-  font-size: 15px;
-  pointer-events: none;
-  /* ^ Teksten vil ikke være i veien (kunne klikkes på), så man kan klikke på bildet fritt. */
-  z-index: 4;
-  transition: 0.3s ease-in-out;
-  -webkit-backdrop-filter: blur(5px) saturate(1.8);
-  backdrop-filter: blur(5px) saturate(1.8);
-}
-
-/* 23 min */
-.gallery-item:hover .text{
-  opacity: 1;
-
-  animation: move-down .3s linear;
-  padding: 1em;
-  width: 100%;
-}
-
-/* "Width x", denne kan legges inn i classen til bilder i html */
-
-.w-1{
-  grid-column: span 1;
-}
-
-.w-2{
-  grid-column: span 2;
-}
-
-.w-3{
-  grid-column: span 3;
-}
-
-.w-4{
-  grid-column: span 4;
-}
-
-.w-5{
-  grid-column: span 5;
-}
-
-.w-6{
-  grid-column: span 6;
-}
-
-/* ^ Disse elementene spenner nå x antall grid-kolonner! */
-
-
-/* "Height x": */
-.h-1{
-  grid-row: span 1;
-}
-
-.h-2{
-  grid-row: span 2;
-}
-
-.h-3{
-  grid-row: span 3;
-}
-
-.h-4{
-  grid-row: span 4;
-}
-
-.h-5{
-  grid-row: span 5;
-}
-
-.h-6{
-  grid-row: span 6;
-}
-
-
-/* Endrer antall kolonner til 2 for små skjermer: */
-@media screen and (max-width: 500px){
-  .container{
-      grid-template-columns: repeat(2, 1fr);
-  }
-  .w-1, .w-2, .w-3, .w-4, .w-5, .w-6{
-      grid-column: span 1;
-  }
-}
-
-@keyframes move-down{
-
-  0%{
-      top: 10%;
-      opacity: 0;
-  }
-
-  50%{
-      top: 35%;
-      opacity: 0.5;
-  }
-
-  100%{
-      top: 50%;
-      opacity: 1;
-  }
-}
-
-
-#lightbox{
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .8);
-  display: none;
-}
-
-#lightbox.active{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#lightbox img{
-  max-width: 90%;
-  max-width: 80%;
-}
-
-/*ORDER.HTML*/
-#order_overskrift {
-  padding-top: 2%;
-  text-align: left;
-  margin-left: 5%;
-}
-
-#selected_service{
-  margin-left: 1%;
-  display: block;
-  padding-bottom: 2%;
-  border-bottom: 2px solid white;
-  height: 10%;
-}
-
-#duration {
-  margin-left: 1%;
-  display: block;
-  padding-bottom: 2%;
-  border-bottom: 2px solid white;
-  height: 10%;
-}
-.grid-container{
-  display: grid;
-  grid-template-areas: 'left right';
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 8%;
-   
-}
-
-.leftside{
-  grid-area: left;
-  text-align: left;
-  padding: 5%;
-  margin-top: 8%;
-  margin-left: 10%;
-    /* justify-self: end; */
-}
-
-input[type=submit]{
-  background-color: #a4161a;
-  border: none;
-  color: #f2f2f2;
-  padding: 0.8%;
-  border-radius: 5px;
-  margin-left: 60%;
-  width: 10em;
-  height: 3em;
-}
-
-.rightside{
-  position: relative;
-  grid-area: right; 
-  margin-top: 4%;
-  padding: 5%;
-  text-align: left;
-  margin-right: 10%;
-}
-
-#textarea{
-  color: rgb(190, 190, 190);
-  border-radius: 25px;
-  border: 2px solid #353535;
-  padding: 20px; 
-  width: 500px;
-  height: 200px; 
-  margin-left: 2%;
-}
-
-
-#textarea:focus{
-  color: #353535;
-}
-
-label{
-  display: inline-block;
-  text-align: left;
-  place-self: start;
-}
-
-#hours{
-  margin-left: 50%;
-}
-
-#days{
-  margin-left: 51.7%;
-}
-
-#video{
-  margin-left: 82%;
-}
-
-#image{
-  margin-left: 78.7%;
-}
-
-
-
-
