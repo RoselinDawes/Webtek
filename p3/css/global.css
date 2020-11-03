@@ -102,7 +102,7 @@ body {
 }
 
 .subnav-content {
-  display: none;
+  /*display: none;*/
   position: absolute;
   left: 0;
   color: #a4161a;
