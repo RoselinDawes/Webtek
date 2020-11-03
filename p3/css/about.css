@@ -78,9 +78,65 @@
   }
 }
 
-#ingrid:hover, #herman:hover, #roselin:hover, #hanna:hover{
-  opacity: 70%;
+#ingrid:hover, #herman:hover, #roselin:hover, #hanna:hover, #brage:hover{
+  filter: brightness(60%);
+  cursor: pointer;
 }
+
+.videostyle{
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-top: 5%;
+  justify-self: start;
+  align-self: start;
+}
+
+.textstyle{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-self: center;
+  width: 50%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+.textstyle > h1{
+  text-align: center;
+}
+
+.textstyle > h2{
+  text-align: center;
+}
+
+
+
+#lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-width: 80%;
+  filter: grayscale(100%);
+}
+
 
 /*The Modal (background) */
 /*.modal {
