@@ -37,6 +37,11 @@ input[type="submit"] {
   margin-left: 60%;
   width: 10em;
   height: 3em;
+  cursor: pointer;
+}
+
+#video_check, #image{
+  cursor: pointer;
 }
 
 .rightside {

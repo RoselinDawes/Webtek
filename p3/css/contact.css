@@ -36,6 +36,7 @@ input[type="submit"] {
   padding: 0.8%;
   border-radius: 5px;
   margin-left: 55%;
+  cursor: pointer;
 }
 
 #backVideo {
