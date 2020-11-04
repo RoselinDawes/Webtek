@@ -1,14 +1,16 @@
-const foot = document.getElementById("foot");
+const foot = document.getElementById("foot"); //henter ut elementet "foot"
 
 function red_insta(){
-    document.getElementById("insta").src="icons/instagram_red.png";
-    document.getElementById("insta").addEventListener("mouseout", normal_insta);
+    document.getElementById("insta").src="icons/instagram_red.png"; //henter ut elementet "insta" og legger til en src til elementet 
+    document.getElementById("insta").addEventListener("mouseout", normal_insta); //henter ut elementet "insta" og legger til at når man tar musa ut av elementet skal funksjonen normal_insta kjøre
 }
 
 function normal_insta(){
-    document.getElementById("insta").src="icons/insta2.png";
-    document.getElementById("insta").addEventListener("mouseover", red_insta);
+    document.getElementById("insta").src="icons/insta2.png"; //henter ut elementet "insta" og legger til en src til elementet 
+    document.getElementById("insta").addEventListener("mouseover", red_insta); //henter ut elementet "insta" og legger til at når man hovrer over elementet skal funksjonen red_insta kjøre 
 }
+
+//de andre funksjonen under gjør det samme som red_insta og normal_insta bare med andre elementer
 
 function red_linkdin(){
     document.getElementById("linkdin_lenke").src="icons/linkdin_red.png";
@@ -51,18 +53,18 @@ function normal_vimeo(){
 }
 
 function footer() {
-    const insta = document.createElement("a");
-    insta.href = "https://www.instagram.com/brage.bakke/?fbclid=IwAR0IkPLdy1p771G5g7wyMZFRgUw2z9Up44kO54Ojsgapgfc0W_mxoPpqEqU";
-    insta.target = "_blank";
-    const insta_icon = document.createElement("img");
-    insta_icon.id="insta";
-    insta_icon.src = "icons/insta2.png";
-    insta_icon.addEventListener("mouseover", red_insta);
-    insta_icon.addEventListener("mouseout", normal_insta);
-    foot.appendChild(insta)
-    foot.appendChild(insta_icon)
-    insta.appendChild(insta_icon);
+    const insta = document.createElement("a"); //lager et element som er en lenke og kalles "insta"
+    insta.href = "https://www.instagram.com/brage.bakke/?fbclid=IwAR0IkPLdy1p771G5g7wyMZFRgUw2z9Up44kO54Ojsgapgfc0W_mxoPpqEqU"; //spesifiserer url'en til siden som linken lenker til 
+    insta.target = "_blank"; //sørger for at den nye siden åpnes i en ny fane 
+    const insta_icon = document.createElement("img"); //lager et img-element som kalles insta_icon
+    insta_icon.id="insta"; //gir elementet en id
+    insta_icon.src = "icons/insta2.png"; //legger til en src til elementet
+    insta_icon.addEventListener("mouseover", red_insta); //dersom man tar musen over skal funksjonen red_insta skje, altså at ikonet blir rødt 
+    insta_icon.addEventListener("mouseout", normal_insta); //dersom man tar musen ut av elementet skal funksjonen normal_insta skje, altså at ikonet blir hvit
+    foot.appendChild(insta) //legger til elementet "insta", altså lenken, i footeren 
+    insta.appendChild(insta_icon); //legger elementet "insta_icon", altså ikonet, i footeren. 
 
+//dette gjentas med alle de 5 ikonene vi har i footeren
 
     const linkdin_lenke = document.createElement("a");
     linkdin_lenke.href = "http://linkedin.com/in/brage-fæhn-bakke-5854751ba/";
@@ -74,7 +76,7 @@ function footer() {
     linkdin_icon.addEventListener("mouseout", normal_linkdin);
     foot.appendChild(linkdin_lenke)
     foot.appendChild(linkdin_icon)
-    linkdin_lenke.appendChild(linkdin_icon);
+  
 
 
     const face = document.createElement("a");
@@ -87,8 +89,7 @@ function footer() {
     face_icon.addEventListener("mouseout", normal_face);
     foot.appendChild(face)
     foot.appendChild(face_icon)
-    face.appendChild(face_icon);
-
+   
 
     const yt = document.createElement("a");
     yt.href = "https://www.youtube.com/user/BigBawsB/featured";
@@ -100,7 +101,7 @@ function footer() {
     yt_icon.addEventListener("mouseout", normal_yt);
     foot.appendChild(yt)
     foot.appendChild(yt_icon)
-    yt.appendChild(yt_icon);
+  
 
 
     const vimeo = document.createElement("a");
@@ -113,7 +114,7 @@ function footer() {
     vimeo_icon.addEventListener("mouseout", normal_vimeo);
     foot.appendChild(vimeo)
     foot.appendChild(vimeo_icon)
-    vimeo.appendChild(vimeo_icon);
+ 
 
 }
 
