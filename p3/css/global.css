@@ -14,7 +14,7 @@ body {
   background-color: #353535;
   position: fixed;
   top: 0;
-  height: 90px;
+  /*height: 90px;*/
   width: 100%;
   transition: top 0.3s;
   z-index: 2;
@@ -25,7 +25,8 @@ body {
   color: #f2f2f2;
   text-align: left;
   /*text-justify: center;*/
-  padding: 2% 4%;
+  /*padding: 2% 4%;*/
+  padding: 1.5% 4%;  
   text-decoration: none;
   font-size: 18px;
   max-width: 100%;
