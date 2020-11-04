@@ -36,17 +36,12 @@
     </div>-->
 
     <h1 id="order_overskrift">ORDER</h1>
+    
 
     <div class="grid-container">
       <div class="leftside">
         <h4 id="selected_service">Select service</h4>
-        <form
-          class="service"
-          id="form"
-          action="mailto:bragebakke@gmail.com"
-          method="post"
-          enctype="text/plain"
-          >
+        <form>
           <label for="video_check"> Video </label>
           <input
             type="checkbox"
@@ -61,11 +56,12 @@
             name="video"
             value="box"
           /><br><br>
-        </form>
+        
           
           <h4 id="duration">Duration</h4>
+       
 
-        <form>
+        
           <label for="hours">Number of hours:</label>
           <input type="number" id="hours" name="hours" min="1" max="12" />
           <br><br>
@@ -77,32 +73,34 @@
             min="1"
             max="10"
           /><br><br>
+        </form>
         
         
       </div>
 
-      <div class="rightside">
-        <h4 id="textboks">Your specifications for this order:</h4>
-        <div class="textbox">
-          <textarea
-            name="request"
-            rows="20"
-            cols="60"
-            id="textarea"
-            onfocus="clearContents(this);"
-          >
-Please describe what you would like the result to be..
-          </textarea>
-          <br /><br />
-          <input type="submit" value="Submit order" /><br /><br />
-        </div>
-      </div>
+          <div class="rightside">
+            <h4 id="textboks">Your specifications for this order:</h4>
+            <div class="textbox">
+              <textarea
+                name="request"
+                rows="20"
+                cols="60"
+                id="textarea"
+                onfocus="clearContents(this);"
+              >
+    Please describe what you would like the result to be..
+              </textarea>
+              <br><br>
+              <input type="submit" value="Submit order" onclick="validateSubmit()"" /><br><br>
+            </div>
+          </div>
     </div>
-        </form>   
-  
+
     <footer id="foot"></footer>
+  
     <script src="js/navbar.js"></script>
     <script src="js/order.js"></script>
     <script src="js/footer.js"></script>
   </body>
+  
 </html>

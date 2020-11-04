@@ -7,12 +7,14 @@
   justify-self: center;
   width: 60%;
   padding: 5%;
+  margin-top: 8%;
 }
 .textBrage {
   justify-self: left;
   width: 70%;
   padding: 5%;
   text-align: justify;
+  margin-top: 8%;
 }
 
 #videoPlayer {
