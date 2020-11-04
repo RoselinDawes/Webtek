@@ -1,16 +1,4 @@
-row {
-  display: flex;
-}
 
-.column {
-  flex: 50%;
-}
-
-@media screen and (max-width: 640px) {
-  .column {
-    flex: 100%;
-  }
-}
 
 .part1 {
   display: grid;
