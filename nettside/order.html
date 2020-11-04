@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/images.css">
+    <link rel = "icon" href = "icons/BB_favicon.png">
+  </head>
+
+  <body>
+    <div id="topnav"></div>
+    <script src="js/header.js"></script>
+
+    <h1 id="order_overskrift">ORDER</h1>
+    
+
+    <div class="grid-container">
+      <div class="leftside">
+        <h4 id="selected_service">Select service</h4>
+        <form>
+          <label for="video_check"> Video </label>
+          <input
+            type="checkbox"
+            id="video_check"
+            name="video"
+            value="box"
+          /><br><br>
+          <label for="image"> Images </label>
+          <input
+            type="checkbox"
+            id="image"
+            name="video"
+            value="box"
+          /><br><br>
+        
+          
+          <h4 id="duration">Duration</h4>
+       
+
+        
+          <label for="hours">Number of hours:</label>
+          <input type="number" id="hours" name="hours" min="1" max="12" />
+          <br><br>
+          <label for="days">Number of days:</label>
+          <input
+            type="number"
+            id="days"
+            name="days"
+            min="1"
+            max="10"
+          /><br><br>
+        </form>
+        
+        
+      </div>
+
+          <div class="rightside">
+            <h4 id="textboks">Your specifications for this order:</h4>
+            <div class="textbox">
+              <textarea
+                name="request"
+                rows="20"
+                cols="60"
+                id="textarea"
+                onfocus="clearContents(this);"
+              >
+    Please describe what you would like the result to be..
+              </textarea>
+              <br><br>
+              <input type="submit" value="Submit order" onclick="validateSubmit()" /><br><br>
+            </div>
+          </div>
+    </div>
+
+    <footer id="foot"></footer>
+  
+    <script src="js/navbar.js"></script>
+    <script src="js/order.js"></script>
+    <script src="js/submit.js"></script>
+    <script src="js/footer.js"></script>
+    
+  </body>
+  
+</html>
