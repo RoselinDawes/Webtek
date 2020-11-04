@@ -40,7 +40,6 @@
     <div class="grid-container">
       <div class="leftside">
         <h4 id="selected_service">Select service</h4>
-
         <form
           class="service"
           id="form"
@@ -62,9 +61,11 @@
             name="video"
             value="box"
           /><br><br>
+        </form>
           
           <h4 id="duration">Duration</h4>
 
+        <form>
           <label for="hours">Number of hours:</label>
           <input type="number" id="hours" name="hours" min="1" max="12" />
           <br><br>
@@ -81,9 +82,8 @@
       </div>
 
       <div class="rightside">
+        <h4 id="textboks">Your specifications for this order:</h4>
         <div class="textbox">
-          <h4>Your specifications for this order:</h4>
-          <!--- <label for="order">Your specifications for this order: </label><br />-->
           <textarea
             name="request"
             rows="20"

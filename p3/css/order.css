@@ -5,22 +5,20 @@ h1 {
 }
 
 h4 {
-  margin-left: 1%;
+  
   display: block;
-  padding-bottom: 2%;
   border-bottom: 2px solid white;
   height: 10%;
 }
 
+
 .grid-container {
   display: grid;
-  grid-template-areas: "left right";
   grid-template-columns: 1fr 2fr;
   grid-gap: 8%;
 }
 
 .leftside {
-  grid-area: left;
   text-align: left;
   padding: 5%;
   margin-top: 8%;
@@ -40,8 +38,6 @@ input[type="submit"] {
 }
 
 .rightside {
-  position: relative;
-  grid-area: right;
   margin-top: 4%;
   padding: 5%;
   text-align: left;
@@ -52,9 +48,9 @@ input[type="submit"] {
   color: rgb(190, 190, 190);
   border-radius: 25px;
   border: 2px solid #353535;
-  padding: 20px;
-  width: 500px;
-  height: 200px;
+  padding: 2%;
+  width: 80%;
+  height: 5%;
   margin-left: 2%;
 }
 
@@ -62,20 +58,39 @@ input[type="submit"] {
   text-transform: capitalize;
 } */
 
+form{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+label, h4{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
 #textarea:focus {
   color: #353535;
 }
 
+#video, #hours, #days, #number{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: end;
+}
+/*
+
 #video {
-  justify-items: right;
+  justify-self: end;
 }
 #hours {
-  justify-items: end;
+  justify-self: end;
 }
 
 #days {
-  justify-items: end;
+  justify-self: end;
 }
+
+
 
 label {
   display: inline-block;
@@ -97,6 +112,34 @@ label {
 
 #image {
   margin-left: 78.7%;
+}*/
+
+@media screen and (max-width: 720px){
+  .grid-container{
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .leftside{
+    margin-left: 0;
+    padding: 0;
+  }
+  .rightside{
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+  }
+  h1{
+    margin-left: 10%;
+  }
+
+  input[type="submit"]{
+    padding: 0.8%;
+    border-radius: 5px;
+    margin-left: 60%;
+    width: 10em;
+    height: 3em;
+  }
 }
 
 /*
