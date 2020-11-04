@@ -75,6 +75,7 @@ video {
 .text > div:nth-child(1) {
   font-size: 25px;
   padding-bottom: 10%;
+  text-align: left;
 }
 
 h2 {
