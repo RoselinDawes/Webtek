@@ -14,25 +14,7 @@ function normal_logo(){
     document.getElementById("logo").addEventListener("mouseover", red_logo);
 }
 
-/*
-function onhover(){
-    const subnav = document.getElementById("subnav");
-    subnav.className = "subnav"
-    /*const subnavbtn = document.createElement("div");
-    subnavbtn.id= "subnavbtn";
-    subnavbtn.className = "subnavbtn";
-    subnavbtn.appendChild(subnav);
-    const subnav_content = document.createElement("div");
-    subnav_content.className = "subnav-content";
-    subnav_content.style.display = "block";
-    subnav.appendChild(subnav_content);
-    const portraits = document.createElement("a");
-    const portraits_tekst = document.createTextNode("Portraits");
-    portraits.id = "portraits";
-    portraits.href= "category_portrait.html";
-    console.log("portraits: " + portraits);
-    portraits.appendChild(portraits_tekst);
-    /*subnavbtn.appendChild(portraits);*/
+
 
 function menubar(){
     const contact = document.createElement("a");
@@ -75,15 +57,6 @@ function menubar(){
     images.appendChild(images_tekst);
     navbar.appendChild(images);
     
-    /*console.log("hei", images.id)
-    document.getElementById("images").onmouseover=function(){onhover()}
-    /*const portraits = document.createElement("a");
-    const portraits_tekst = document.createTextNode("Portraits");
-    portraits.id = "portraits";
-    portraits.href= "category_portrait.html";
-    console.log("portraits: " + portraits);
-    portraits.appendChild(portraits_tekst);
-    subnavbtn.appendChild(portraits);*/
    
     const logo = document.createElement("a");
     logo.href = "homepage.html";

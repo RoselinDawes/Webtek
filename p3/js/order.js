@@ -1,5 +1,5 @@
 function clearContents(textarea) {
-  textarea.value = "";
+  textarea.value = "";  //tømmer det som står i textarea 
 }
 
 
