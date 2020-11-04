@@ -37,11 +37,7 @@
     <div class="contacttext">
       <h1 id="contact">CONTACT</h1>
       <div>
-        <form
-          action="mailto:bragebakke@gmail.com"
-          method="post"
-          enctype="text/plain"
-        >
+        <form>
           <label for="fname"> Name: </label><br />
           <input
             type="text"
@@ -68,7 +64,7 @@
           <textarea name="request" id="request" rows="15" cols="73"> </textarea>
           <br /><br />
 
-          <input type="submit" value="Submit" /><br /><br />
+          <input type="submit" value="Submit" onclick="validateSubmit()"/><br /><br />
         </form>
       </div>
     </div>
@@ -76,6 +72,7 @@
     <footer id="foot"></footer>
 
     <script src="js/navbar.js"></script>
+    <script src="js/submit.js"></script>
     <script src="js/footer.js"></script>
   </body>
 </html>
