@@ -1,13 +1,11 @@
 
-
-
 .video{
   width:100%; 
   position: relative;
   border: 0;
 
 }
-  
+
 .content{
   font-size: 18px;
   text-align: center;
@@ -19,7 +17,4 @@ h1, p, h3{
   margin-left: 10%;
   margin-bottom: 3%;
   width: 80%;
-
 }
-  
-  
