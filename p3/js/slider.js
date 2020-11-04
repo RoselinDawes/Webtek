@@ -1,20 +1,13 @@
-// if (condition1) {
-//     let sliderImages = document.querySelectorAll(".slide")
-//   } else if (condition2) {
-//     let sliderImages = document.querySelectorAll(".n_slide")
-//   } else if (condition2) {
-//     let sliderImages = document.querySelectorAll(".p_slide")
-//   } else {
-//     let sliderImages = document.querySelectorAll(".re_slide")
-//   }
 
 
 
-let sliderImages = document.querySelectorAll(".slide")
 
+let sliderImages = document.querySelectorAll(".slide") //henter ut alle elementer "slide" og legger de i en nodelist
 let arrowLeft = document.querySelector("#arrow-left");
 let arrowRight = document.querySelector("#arrow-right");
-let current = 0;
+//henter ut elementene ^
+let current = 0; //definerer en variabel current og setter den til 0 
+
 
 // Close-button:
 function goBack() {
@@ -23,44 +16,44 @@ function goBack() {
 
 // Klarere alle bilder:
 function reset(){
-    for(let i = 0; i < sliderImages.length; i++){
-        sliderImages[i].style.display = "none";
+    for(let i = 0; i < sliderImages.length; i++){ //iterer gjennom sliderImages listen
+        sliderImages[i].style.display = "none"; //setter hvert element i listen til å ha display: none
     }
 }
 
 function startSlide(){
-    reset();
-    sliderImages[0].style.display = "block";
+    reset(); //kaller på funksjonen reset()
+    sliderImages[0].style.display = "block"; //setter første element i listen til å ha display: block
 }
 
 //Vis forrige
 function slideLeft(){
-    reset();
-    sliderImages[current-1].style.display = "block";
-    current--;
+    reset(); 
+    sliderImages[current-1].style.display = "block"; //setter elementet som er før current til å ha display: block
+    current--; //gir current en ny verdi som er en mindre enn forrige
 }
 
 //Vis neste
 function slideRight(){
     reset();
-    sliderImages[current+1].style.display = "block";
-    current++;
+    sliderImages[current+1].style.display = "block"; //setter elementet som er etter current til å ha display: block
+    current++; //gir current en ny verdi som er en større enn forrige 
 }
 
 //Venstre klikk
-arrowLeft.addEventListener("click", function(){
-    if(current === 0){
-        current = sliderImages.length;
+arrowLeft.addEventListener("click", function(){ //når man klikker på arrowLeft skal en funksjon skje
+    if(current === 0){ //sjekker om current er lik 0
+        current = sliderImages.length; //om det stemmer skal current få en ny verdi som er lik lengden av listen sliderImages
     }
-    slideLeft();
+    slideLeft(); //kaller på funksjonen slideLeft()
 });
 
 //Høyre klikk
-arrowRight.addEventListener("click", function(){
-    if(current === sliderImages.length - 1){
-        current = -1;
+arrowRight.addEventListener("click", function(){ //når man klikker på arrowRight skal en funksjon skje 
+    if(current === sliderImages.length - 1){ //sjekker om current er lik lengden på listen sliderImages - 1
+        current = -1; // setter current til -1
     }
-    slideRight();
+    slideRight(); //kaller på funksjonen slideRight()
 });
 
 startSlide();

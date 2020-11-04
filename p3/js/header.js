@@ -1,35 +1,35 @@
-const topnav = document.getElementById("topnav");
-topnav.className = "topnav"
-const navbar = document.createElement("div");
-navbar.id = "navbar";
-navbar.className = "navbar";
-topnav.appendChild(navbar);
+const topnav = document.getElementById("topnav"); //henter ut elemntet "topnav"
+topnav.className = "topnav" //gir topnav et className 
+const navbar = document.createElement("div"); //lager et div-element som kalles navbar
+navbar.id = "navbar"; //gir elementet en id 
+navbar.className = "navbar"; //gir elementet et className 
+topnav.appendChild(navbar); //legger til navbar-elementet i topnav
 
 function red_logo(){
-    document.getElementById("logo").src="icons/logo_red3.png";
-    document.getElementById("logo").addEventListener("mouseout", normal_logo);
+    document.getElementById("logo").src="icons/logo_red3.png"; //henter ut elementet "logo" og legger til en src til elementet 
+    document.getElementById("logo").addEventListener("mouseout", normal_logo); //henter ut elementet "logo" og legger til at når man tar musa ut av elementet skal funksjonen normal_logo kjøre
 }
 function normal_logo(){
-    document.getElementById("logo").src="icons/logo.png";
-    document.getElementById("logo").addEventListener("mouseover", red_logo);
+    document.getElementById("logo").src="icons/logo.png"; //henter ut elementet "logo" og legger til en src til elementet 
+    document.getElementById("logo").addEventListener("mouseover", red_logo); //henter ut elementet "insta" og legger til at når man hovrer over elementet skal funksjonen red_logo kjøre 
 }
 
 
 
 function menubar(){
-    const contact = document.createElement("a");
-    const contact_tekst = document.createTextNode("Contact");
-    contact.id = "contact";
-    contact.href= "contact.html";
-    console.log("contact: " + contact);
-    contact.appendChild(contact_tekst);
-    navbar.appendChild(contact);
+    const contact = document.createElement("a"); //lager en lenke-element som kalles contact
+    const contact_tekst = document.createTextNode("Contact"); //lager en textnode 
+    contact.id = "contact"; //gir contact en id
+    contact.href= "contact.html"; //spesifiserer url'en til siden som linken lenker til 
+    contact.appendChild(contact_tekst); //legger til textnoden i contact-elementet
+    navbar.appendChild(contact); //legger til conact i navbar
+
+   //gjentar dette med alle de ulike elementene som skal være i navbaren  
 
     const about = document.createElement("a");
     const about_tekst = document.createTextNode("About");
     about.id = "about";
     about.href= "about.html";
-    console.log("about: " + about);
     about.appendChild(about_tekst);
     navbar.appendChild(about);
 
@@ -37,7 +37,6 @@ function menubar(){
     const order_tekst = document.createTextNode("Order");
     order.id = "order";
     order.href= "order.html";
-    console.log("order: " + order);
     order.appendChild(order_tekst);
     navbar.appendChild(order);
 
@@ -45,7 +44,6 @@ function menubar(){
     const videos_tekst = document.createTextNode("Videos");
     videos.id = "video";
     videos.href= "video.html";
-    console.log("videos: " + videos);
     videos.appendChild(videos_tekst);
     navbar.appendChild(videos);
 
@@ -53,7 +51,6 @@ function menubar(){
     const images_tekst = document.createTextNode("Images");
     images.id = "images";
     images.href= "images.html";
-    console.log("images: " + images);
     images.appendChild(images_tekst);
     navbar.appendChild(images);
     
