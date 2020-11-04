@@ -66,6 +66,19 @@ body, #slider, .wrap, .slide-content{
     color: white;
 }
 
+#close-button{
+    cursor: pointer;
+    opacity: 50%;
+    font-size: 3vw;
+    position: absolute;
+    right: 3vh;
+    top: 3vh;
+}
+
+#close-button:hover{
+    opacity: 100%;
+}
+
 .arrow{
     cursor: pointer;
     position: absolute;
