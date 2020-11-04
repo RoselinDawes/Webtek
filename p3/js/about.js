@@ -1,22 +1,15 @@
-/*// Get the modal
+function loadVideo() {
+  const videoplayer = document.getElementById("videoPlayer");
+  const videoEl = document.getElementById("introvideo");
+  videoplayer.appendChild(videoEl);
+  videoplayer.style.display = "block";
+  const imag = document.getElementById("brage")
+  imag.remove();
+  videoplayer.classList.add("videostyle");
+  const text = document.querySelector(".textBrage")
+  text.classList.add("textstyle");
 
-let modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-let img = document.getElementById("brage");
-let modalImg = document.getElementById("img01");
-let captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  
 }
 
-// Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}*/
 

@@ -12,22 +12,6 @@
     <div id="topnav"></div>
     <div id="subnav"></div>
     <script src="js/header.js"></script>
-    <!--<div class="topnav">
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-            <a href="order.html">Order</a>
-            <a href="video.html">Videos</a>
-            <div class="subnav">
-              <a href="2_photo_grid.html">Images</a>
-                <div class="subnav-content">
-                  <a href="category_real_estate.html">Real estate</a>
-                  <a href="category_nature.html">Nature</a>
-                  <a href="category_adventure.html">Adventure</a>
-                  <a href="category_portrait.html">Portraits</a>
-                </div></div>
-            <a href="homepage.html"><img class="brage_logo" src="icons/logo.png" alt="brage_logo" onmouseover="this.src='icons/logo_red3.png'" onmouseout="this.src='icons/logo.png'"></a>
-            </div>
-        </div>-->
 
     <video autoplay muted loop id="backVideo">
       <source src="img/replayy.mp4" type="video/mp4" />
@@ -37,11 +21,7 @@
     <div class="contacttext">
       <h1 id="contact">CONTACT</h1>
       <div>
-        <form
-          action="mailto:bragebakke@gmail.com"
-          method="post"
-          enctype="text/plain"
-        >
+        <form>
           <label for="fname"> Name: </label><br />
           <input
             type="text"
@@ -68,7 +48,7 @@
           <textarea name="request" id="request" rows="15" cols="73"> </textarea>
           <br /><br />
 
-          <input type="submit" value="Submit" /><br /><br />
+          <input type="submit" value="Submit" onclick="validateSubmit()"/><br /><br />
         </form>
       </div>
     </div>
@@ -76,6 +56,7 @@
     <footer id="foot"></footer>
 
     <script src="js/navbar.js"></script>
+    <script src="js/submit.js"></script>
     <script src="js/footer.js"></script>
   </body>
 </html>
