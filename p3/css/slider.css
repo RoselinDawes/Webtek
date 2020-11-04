@@ -9,7 +9,7 @@ body, #slider, .wrap, .slide-content{
 
 .wrap{position: relative}
 
-.slide, .n_slide, .p_slide, .re_slide{
+.slide{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
