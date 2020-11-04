@@ -1,19 +1,22 @@
-let i = 0; 
-let images1 = ["img/beito.jpg", "img/innerdalen/bilder36.jpg", "img/innerdalen/bilder1.jpg"];
-let time = 3000;
+let i = 0; //definerer en variabel i som settes til å være 0
+let images1 = ["img/beito.jpg", "img/innerdalen/bilder36.jpg", "img/innerdalen/bilder1.jpg"]; //lager et array bestående av tre bilder
+const time = 3000; //definerer en variabel som settes til å være 3000
 
 
 function changeimg(){
-    document.querySelector("#slide1").src = images1[i];
+    document.querySelector("#slide1").src = images1[i]; //henter ut elementet "slide1" og gir det en ny src verdi som er lik arrayets i'te plass
 
-    if (i < images1.length - 1){
-        i++;
+    if (i < images1.length - 1){ // sjekker om man er på slutten av arrayet 
+        i++; //dersom man ikke er det enda så blir variabelen i én større 
     }else{
-        i=0;
+        i=0; //dersom man er på slutten av arrayet blir i satt til 0 igjen 
     }
 
-    setTimeout("changeimg()", time);
+    setTimeout("changeimg()", time); //settimeout funksjonen kaller på funksjonen etter et spesifisert antall millisekunder, som her er satt til 3000 gjennom variablen time
 }
+
+//det samme gjentas i de 3 neste funksjonene bare med ulike bilder, og dermed ulike arrays 
+
 
 let images2 = ["img/Bestemor.jpg", "img/Bestemor2.jpg"]
 let j = 0;
