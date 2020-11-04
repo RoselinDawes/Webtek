@@ -70,7 +70,7 @@ function menubar(){
     const images = document.createElement("a");
     const images_tekst = document.createTextNode("Images");
     images.id = "images";
-    images.href= "2_photo_grid.html";
+    images.href= "images.html";
     console.log("images: " + images);
     images.appendChild(images_tekst);
     navbar.appendChild(images);
