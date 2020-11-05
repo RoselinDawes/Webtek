@@ -7,18 +7,9 @@
   margin-bottom: 6px;
 }
 
-@media screen and (max-width: 720px) {
-  .part1 {
-    display: grid;
-    grid-template-columns: 1fr;/*når skjermen blir mindre endres gridet til bare en kolonne*/
-  }
-}
-
-
 
 .screen {
   position: relative;
-  /*margin-top: 7%;*/
 }
 
 video {
@@ -78,4 +69,17 @@ h2 {
 
 .part4 > h1 {
   text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .part1 {
+    display: grid;
+    grid-template-columns: 1fr;/*når skjermen blir mindre endres gridet til bare en kolonne*/
+  }
+  .text > div:nth-child(1) {
+    font-size: 15px;
+  }
+  .text {
+    font-size: 12px;
+  }
 }
