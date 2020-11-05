@@ -35,10 +35,10 @@ input[type="submit"] {
   background-color: #a4161a;
   border: none;
   color: #f2f2f2;
-  padding: 0.8%;
+  padding: 1%;
   border-radius: 5px;
   margin-left: 55%;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 
@@ -57,3 +57,4 @@ input[type="submit"] {
   background: rgba(0, 0, 0, 0.5);
   padding: 3%;
 }
+
