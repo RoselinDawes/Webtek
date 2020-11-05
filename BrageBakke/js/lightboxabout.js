@@ -25,3 +25,6 @@ function makeLightbox(){
 };
 
 makeLightbox();
+
+
+//brukt denne youtube-videoen som inspirasjon til koden https://www.youtube.com/watch?v=uKVVSwXdLr0
