@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="nn">
+  <head>
+    <title>P3</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="p3.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Prosjekt 3 - Project Coding</h1>
+      <h3>Gruppe 27</h3>
+      <h4>
+        Brage, Hanna, Herman, Ingrid og Roselin
+        <br />
+        Uke 40
+      </h4>
+    </header>
+    <img id="cover" src="img/bilder3.jpg" alt="Cover image" />
+    <section>
+      <br />
+      <div class="boks">
+<h2>Administrative detaljer</h2>
+        <p>
+          Klientens navn, navn på nettsiden og kontakpersonen er Brage Bakke.
+        </p>
+      </div>
+      <br />
+      <div class="boks">
+<h2>Endringer vi har gjort</h2>
+        <p>
+            Vi har i all hovedsak beholdt veldig mange av elementene slik det var tenkt i P2. 
+            Den generelle layouten og strukturen er veldig lik, men noen endringer er gjort slik de er beskrevet under. 
+            <br><br>
+            <b>Globalt</b><br><br>
+            Det er enkelte ting som går igjen i nettsiden, og disse elementene har vi valgt å gjøre lett tilgjengelige for oss ved å lage felles koder som blir gjenbrukt i filene våre. 
+            Dette gjelder da en global css, global.css, som inneholder alt av css-kode som går igjen på alle sidene. 
+            Dette innebærer altså stylingen av farger som er felles, stylingen av navbar og footer. 
+            Sider som bruker bilder er koblet opp mot images.css, som gir en helhetlig uttrykk gjennom nettsiden. 
+            <br><br>
+            Bla bla bla
+            <br><br>
+            <b>Navbar</b><br><br>
+            I utgangspunktet hadde vi tenkt å ha en navbar med elementene <i>Images</i>, <i>Videos</i>, <i>Order</i>, <i>About</i> og <i>Contact</i>. 
+            Det var tenkt at om man hovret over <i>Images</i> og <i>Videos</i> så skulle det dukke opp en subnav-meny med kategoriene <i>Events</i>, <i>Nature/Adventure</i>, <i>Portraits</i>, <i>Promo</i> og <i>Real estate</i>. 
+            I tillegg var det tenkt at når man trykket seg inn på <i>Images</i> fanen så skulle man komme seg inn på en ny side bestående av bilder med tekst over seg slik at man lett forstår hvilke kategorier siden har å by på. 
+            <br><br>
+            Den første endringen her var at vi konkluderte med å kutte ned på antall kategorier da det viste seg at tilbudet av disse fra klienten ikke var stort nok til at det føltes nødvendig å ha med. 
+            Da vi fikk alt innholdet fra klienten vår så vi at det ikke var nødvendig med underkategoriene <i>Promo</i> og <i>Events</i>. 
+            Vi så derimot at Brage Bakke tar mange natur- og turbilder, og vi bestemte oss derfor sammen med han for å dele opp <i>Nature/Adventure</i> i to separate kategorier. 
+            Dermed strippet vi det ned til 4 hovedkategorier: <i>Nature</i>, <i>Adventure</i>, <i>Portraits</i> og <i>Real estate</i>. 
+            I tillegg fant vi også ut av at det ikke var noe behov for å kategorisere <i>Videos</i> ettersom antallet videoer som klienten vår hadde ikke var mange nok til dette for tiden.
+            <br><br>
+            Videre fant vi ut av at det føltes overflødig å ha kategoriene både inne på <i>Images</i>> og i en egen subnav-meny. 
+            Dette kommer av at innholdet i seg selv er relativt enkelt da det kun består av enkeltstående bildet, og antall klikk ble like mange om man så måtte gjennom en subnav eller gå rett inn på <i>Images</i>. 
+            Med dette i mente avgjorde vi at vi kun ønsket å beholde en av metodene da å ha begge ble smør på flesk, og endte opp med å forkaste subnaven til fordel for et enkelt oversiktlig klikk på <i>Images</i>.
+            <br><br>
+            <b>Footer</b>
+            <br><br>
+            I footeren valgte vi å kun ha “Sosiale medier”, og tok derfor bort mail-ikonet. 
+            Vi følte dette var overflødig da det er en egen side i navbaren hvor man kan kontakte Brage gjennom mail. 
+            Ettersom klienten er synlig på sosiale medier ble det viktigere for han å fronte dette godt slik at brukerne får muligheten til å lett danne seg et bilde av han, ikke bare gjennom nettsiden men også på et mer personlig plan. 
+            Dette ønsket han skulle være lett tilgjengelig og synlig for brukerne av nettsiden til alle tider, og den er derfor plassert nederst på alle sider. 
+            Ikonene i footeren er nå lenker til hans <i>instagram</i>, <i>linkdin</i>, <i>facebook</i>, <i>youtube</i> og <i>vimeo</i> profil. 
+            <br><br>
+            <b>Logo og font</b>
+            <br><br>
+            Vi hadde til å begynne med en logo uten tekst. 
+            For å “brande” Brage ytterligere la vi til “BRAGE BAKKE” ved siden av logoen for at brukerne skulle få en tilknytning til både ikon og navn til samme tid. 
+            Dette er vist i eksemplene i P2. 
+            Videre følte vi at teksten tok litt for mye oppmerksomhet, men hadde fortsatt et ønske om å integrere det på en mer subtil måte. 
+            Resultatet ble derfor den samme logoen men denne gangen med navnet hans plassert i mindre skrift under ikonet. 
+            Logoen uten tekst tok vi heller i bruk som favicon til siden, bare i den røde fargen som går igjen som en rød tråd på nettsiden.
+            <br><br>
+            Opprinnelig hadde vi sett for oss å bruke <i>Acumin pro</i> som fonten på nettsiden. 
+            Dette gikk vi bort ifra og valgte heller å bruke font-family <i>Helvetica</i>. 
+            Dette kommer av at dette er en mer anerkjent font som alle på en eller annen måte har vært borti før. 
+            I tillegg så fant vi ut av at de fleste bedrifter holder seg til den samme fonten, og den har med dette blitt assosiert med bedriftskultur og virksomhet, noe vi ønsket at vår klient også skal bli assosiert med. 
+            <br><br>
+            <b>Homepage</b>
+            <br><br>
+            På hjemmesiden har vi endret litt på rekkefølgen av de ulike elementene. 
+            Etter en prat med klienten vår fant vi ut at det var viktig for han å få vist fram videosnutten, samt å fortelle litt om hva som er hensikten med nettsiden. 
+            Vi bestemte oss derfor for å legge videoen øverst på siden, etterfulgt av et lite avsnitt om hensikten med nettsiden. 
+            Vi synes dette også ga et renere uttrykk, samtidig som det er en spennende forside å komme til fordi videoen spilles av med en gang man kommer inn på siden. 
+            Ved å legge til et lite avsnitt om Brage og nettsiden på forsiden vil brukeren med en gang skjønne hva nettsiden handler om.
+            <br><br>
+            Bildegriden med de 4 bildene kommer derfor litt lengre ned på siden. 
+            Disse endres med et intervall på 3 sekunder slik som planlagt, men funksjonen med å hovre over valgte vi å ta bort. 
+            Vi merket fort at det ble litt for mye som skjedde når bildene endret seg hvert 3 sekund, samtidig som man kunne hovre over og klikke for å komme inn på ny side. 
+            Det ble rotete og uoversiktlig, og vi følte også at det ble litt overflødig fordi om man vil se flere bilder kan man enkelt gå i <i>Images</i> siden i navbaren. 
+            <br><br>
+            <b>Videos</b>
+        </p>
+      </div>
+      <br />
+      <div class="boks">
+<h2>Oppdatert filstruktur</h2>
+        <p>
+           
+          <br /><br />
+          <img
+            id="navigasjonsstruktur"
+            src="img/Navigasjonsstruktur.jpg"
+            alt="navigasjon"
+          />
+        </p>
+      </div>
+      <br />
+      <br />
+      <div class="boks">
+        <h2>Endelig arbeidsfordeling</h2>
+        <p>
+            I testene våre benyttet vi oss av nettleservinduet på datamaskinen (google chrome), i ulike vindusstørrelser. 
+            Det ble også testet med ulik bredde, fra 450px til 1920px. 
+            Testene ble gjennomført på et møterom i Adolf Øien-bygget uten eksterne forstyrrelser. 
+        </p>
+       
+      <div class="boks">
+        <h2>Tilbakemeldinger og sammendrag</h2>
+        <p>
+            Som nevnt under «testdokument», var det store deler av informasjonen som kom frem fra første testperson. 
+            Videre i testingen så vi en avtakende trend av ny informasjon. 
+        </p>
+       
+      
+      <div class="boks">
+        <h2>Respons tilbakemeldinger</h2>
+       <p>
+        En løsning på...  
+       </p>
+      </div>
+      <br />
+      <div class="boks">
+<h2>Grupperefleksjon</h2>
+        <p>
+            «Brage Bakke» har vært et omfattende, men lærerikt prosjekt med stort utbytte for alle undertegnede. 
+        </p>
+      </div>
+      <br /><br /><br />
+      <footer>Brage, Hanna, Herman, Ingrid og Roselin</footer>
+      <br />
+    </section>
+  </body>
+</html>
