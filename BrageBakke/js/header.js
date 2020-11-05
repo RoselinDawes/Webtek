@@ -56,7 +56,7 @@ function menubar(){
     
    
     const logo = document.createElement("a");
-    logo.href = "homepage.html";
+    logo.href = "index.html";
     const logo_icon = document.createElement("img");
     logo_icon.id="logo";
     logo_icon.src = "icon/logo.png";
