@@ -11,9 +11,13 @@
     </head>
 
     <body>
+        <!---Lager en id som får navnet topnav som man finner igjen i header.js. 
+        Dette er for å koble html-siden og javascripten.
+        Dette er gjort på alle de andre html-filene hvor navbaren befinner seg på.-->
         <div id="topnav"></div>
        
-        
+        <!-- Kode som spiller av videoen på forsiden. 
+            Denne skal spille av om og om igjen som en gif og har derfor brukt "autoplay muted loop".-->
         <div class="screen">
             <video autoplay muted loop>
                 <source src="img/replayy_wide2.mp4" type="video/mp4">
@@ -72,9 +76,13 @@
             
 
         </div>
-
+        <!--Gir footeren en id av samme grunn som topnav lenger opp i html-koden.
+        Denne linkes da opp mot footer.js.
+        Dette er gjort på alle de andre html-filene hvor footer befinner seg på-->
         <footer id="foot"></footer>
-
+        <!--Linker til javascript-filene til sist i html-filen da det ellers vil ta lenger tid å laste inn 
+        og det er viktigere å få strukturen fram først.
+        Dette er gjort på samme måte på alle de andre html-filene som er linket til javascript funksjon(er).   -->
         <script src="js/header.js"></script>
         <script src="js/navbar.js"></script>
         <script src="js/homepage.js"></script>
