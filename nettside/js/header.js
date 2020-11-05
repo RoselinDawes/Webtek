@@ -6,11 +6,11 @@ navbar.className = "navbar"; //gir elementet et className
 topnav.appendChild(navbar); //legger til navbar-elementet i topnav
 
 function red_logo(){
-    document.getElementById("logo").src="icons/logo_red3.png"; //henter ut elementet "logo" og legger til en src til elementet 
+    document.getElementById("logo").src="icon/logo_red3.png"; //henter ut elementet "logo" og legger til en src til elementet 
     document.getElementById("logo").addEventListener("mouseout", normal_logo); //henter ut elementet "logo" og legger til at når man tar musa ut av elementet skal funksjonen normal_logo kjøre
 }
 function normal_logo(){
-    document.getElementById("logo").src="icons/logo.png"; //henter ut elementet "logo" og legger til en src til elementet 
+    document.getElementById("logo").src="icon/logo.png"; //henter ut elementet "logo" og legger til en src til elementet 
     document.getElementById("logo").addEventListener("mouseover", red_logo); //henter ut elementet "insta" og legger til at når man hovrer over elementet skal funksjonen red_logo kjøre 
 }
 
@@ -59,7 +59,7 @@ function menubar(){
     logo.href = "homepage.html";
     const logo_icon = document.createElement("img");
     logo_icon.id="logo";
-    logo_icon.src = "icons/logo.png";
+    logo_icon.src = "icon/logo.png";
     logo_icon.addEventListener("mouseover", red_logo);
     logo_icon.addEventListener("mouseout", normal_logo);
     topnav.appendChild(logo)

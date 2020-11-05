@@ -21,11 +21,14 @@
   display: none;
 }
 
-#team,
 .strek {
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
+}
+
+#team{
+  text-align: center;
 }
 
 .cfo,

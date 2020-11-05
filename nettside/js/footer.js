@@ -1,54 +1,54 @@
 const foot = document.getElementById("foot"); //henter ut elementet "foot"
 
 function red_insta(){
-    document.getElementById("insta").src="icons/instagram_red.png"; //henter ut elementet "insta" og legger til en src til elementet 
+    document.getElementById("insta").src="icon/instagram_red.png"; //henter ut elementet "insta" og legger til en src til elementet 
     document.getElementById("insta").addEventListener("mouseout", normal_insta); //henter ut elementet "insta" og legger til at når man tar musa ut av elementet skal funksjonen normal_insta kjøre
 }
 
 function normal_insta(){
-    document.getElementById("insta").src="icons/insta2.png"; //henter ut elementet "insta" og legger til en src til elementet 
+    document.getElementById("insta").src="icon/insta2.png"; //henter ut elementet "insta" og legger til en src til elementet 
     document.getElementById("insta").addEventListener("mouseover", red_insta); //henter ut elementet "insta" og legger til at når man hovrer over elementet skal funksjonen red_insta kjøre 
 }
 
 //de andre funksjonen under gjør det samme som red_insta og normal_insta bare med andre elementer
 
 function red_linkdin(){
-    document.getElementById("linkdin_lenke").src="icons/linkdin_red.png";
+    document.getElementById("linkdin_lenke").src="icon/linkdin_red.png";
     document.getElementById("linkdin_lenke").addEventListener("mouseout", normal_linkdin);
 }
 
 function normal_linkdin(){
-    document.getElementById("linkdin_lenke").src="icons/linkdin.png";
+    document.getElementById("linkdin_lenke").src="icon/linkdin.png";
     document.getElementById("linkdin_lenke").addEventListener("mouseover", red_linkdin);
 }
 
 function red_face(){
-    document.getElementById("face").src="icons/facebook_red.png";
+    document.getElementById("face").src="icon/facebook_red.png";
     document.getElementById("face").addEventListener("mouseout", normal_face);
 }
 
 function normal_face(){
-    document.getElementById("face").src="icons/face.png";
+    document.getElementById("face").src="icon/face.png";
     document.getElementById("face").addEventListener("mouseover", red_face);
 }
 
 function red_yt(){
-    document.getElementById("yt").src="icons/youtube_red.png";
+    document.getElementById("yt").src="icon/youtube_red.png";
     document.getElementById("yt").addEventListener("mouseout", normal_yt);
 }
 
 function normal_yt(){
-    document.getElementById("yt").src="icons/youtube.png";
+    document.getElementById("yt").src="icon/youtube.png";
     document.getElementById("yt").addEventListener("mouseover", red_yt);
 }
 
 function red_vimeo(){
-    document.getElementById("vimeo").src="icons/vimeo_red.png";
+    document.getElementById("vimeo").src="icon/vimeo_red.png";
     document.getElementById("vimeo").addEventListener("mouseout", normal_vimeo);
 }
 
 function normal_vimeo(){
-    document.getElementById("vimeo").src="icons/vimeo.png";
+    document.getElementById("vimeo").src="icon/vimeo.png";
     document.getElementById("vimeo").addEventListener("mouseover", red_vimeo);
 }
 
@@ -58,7 +58,7 @@ function footer() {
     insta.target = "_blank"; //sørger for at den nye siden åpnes i en ny fane 
     const insta_icon = document.createElement("img"); //lager et img-element som kalles insta_icon
     insta_icon.id="insta"; //gir elementet en id
-    insta_icon.src = "icons/insta2.png"; //legger til en src til elementet
+    insta_icon.src = "icon/insta2.png"; //legger til en src til elementet
     insta_icon.addEventListener("mouseover", red_insta); //dersom man tar musen over skal funksjonen red_insta skje, altså at ikonet blir rødt 
     insta_icon.addEventListener("mouseout", normal_insta); //dersom man tar musen ut av elementet skal funksjonen normal_insta skje, altså at ikonet blir hvit
     foot.appendChild(insta) //legger til elementet "insta", altså lenken, i footeren 
@@ -71,11 +71,11 @@ function footer() {
     linkdin_lenke.target = "_blank";
     const linkdin_icon = document.createElement("img");
     linkdin_icon.id="linkdin_lenke";
-    linkdin_icon.src = "icons/linkdin.png";
+    linkdin_icon.src = "icon/linkdin.png";
     linkdin_icon.addEventListener("mouseover", red_linkdin);
     linkdin_icon.addEventListener("mouseout", normal_linkdin);
-    foot.appendChild(linkdin_lenke)
-    foot.appendChild(linkdin_icon)
+    foot.appendChild(linkdin_lenke);
+    linkdin_lenke.appendChild(linkdin_icon);
   
 
 
@@ -84,11 +84,11 @@ function footer() {
     face.target = "_blank";
     const face_icon = document.createElement("img");
     face_icon.id="face";
-    face_icon.src = "icons/face.png";
+    face_icon.src = "icon/face.png";
     face_icon.addEventListener("mouseover", red_face);
     face_icon.addEventListener("mouseout", normal_face);
-    foot.appendChild(face)
-    foot.appendChild(face_icon)
+    foot.appendChild(face);
+    face.appendChild(face_icon);
    
 
     const yt = document.createElement("a");
@@ -96,11 +96,11 @@ function footer() {
     yt.target = "_blank";
     const yt_icon = document.createElement("img");
     yt_icon.id="yt";
-    yt_icon.src = "icons/youtube.png";
+    yt_icon.src = "icon/youtube.png";
     yt_icon.addEventListener("mouseover", red_yt);
     yt_icon.addEventListener("mouseout", normal_yt);
-    foot.appendChild(yt)
-    foot.appendChild(yt_icon)
+    foot.appendChild(yt);
+    yt.appendChild(yt_icon);
   
 
 
@@ -109,11 +109,11 @@ function footer() {
     vimeo.target = "_blank";
     const vimeo_icon = document.createElement("img");
     vimeo_icon.id="vimeo";
-    vimeo_icon.src = "icons/vimeo.png";
+    vimeo_icon.src = "icon/vimeo.png";
     vimeo_icon.addEventListener("mouseover", red_vimeo);
     vimeo_icon.addEventListener("mouseout", normal_vimeo);
-    foot.appendChild(vimeo)
-    foot.appendChild(vimeo_icon)
+    foot.appendChild(vimeo);
+    vimeo.appendChild(vimeo_icon);
  
 
 }
