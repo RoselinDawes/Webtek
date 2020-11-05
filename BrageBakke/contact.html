@@ -17,11 +17,13 @@
       <source src="img/replayy.mp4" type="video/mp4" />
       Your browser does not support HTML5 video.
     </video>
+    <!--video som spilles i bakgrunnen, har på autoplay muted og loop fordi da spilles den av automatisk også stopper den aldri
+    samtidig som at den er muted-->
 
     <div class="contacttext">
       <h1 id="contact">CONTACT</h1>
       <div>
-        <form name="myForm">
+        <form name="myForm"> <!--lager et form-->
           <label for="fname"> Name: </label><br />
           <input
             type="text"
@@ -29,6 +31,8 @@
             name="fname"
             placeholder="Your first name.."
           />
+          <!--gir hver input en label, type, id og navn, samt en placeholder text som stå i feltet før brukeren 
+          begynner å skrive i input-feltet-->
           <input
             type="text"
             id="lname"
@@ -49,6 +53,7 @@
           <br /><br />
 
           <input type="submit" value="Submit" onclick="validateSubmit()"/><br /><br />
+          <!--Kaller påv validateSubmit() når man klikker på submit-knappen-->
         </form>
       </div>
     </div>
