@@ -1,4 +1,4 @@
-function validateSubmit(){
+function validateSubmitcontact(){
   const fname = document.forms["myForm"]["fname"].value
   const lname = document.forms["myForm"]["lname"].value
   const email = document.forms["myForm"]["email"].value
@@ -9,4 +9,7 @@ function validateSubmit(){
   }
 };
 
+function validateSubmit(){
+    window.alert("Your request was submitted, thank you!")
+};
 
