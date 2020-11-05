@@ -19,14 +19,15 @@
     <div class="grid-container">
       <div class="leftside">
         <h4 id="selected_service">Select service</h4>
-        <form name="orderForm">
-          <label for="video_check"> Video </label>
-          <input
+        <form name="orderForm"> <!--Lager et form-->
+          <label for="video_check"> Video </label> <!--setter en label for inputen-->
+          <input 
             type="checkbox"
             id="video_check"
             name="video"
             value="box"
           /><br><br>
+          <!--Gir inputen en type, id, name og value-->
           <label for="image"> Images </label>
           <input
             type="checkbox"
@@ -68,9 +69,11 @@
               >
     Please describe what you would like the result to be..
               </textarea>
+              <!--Kaller på funksjonen cleasContents() når textarea er i focus, altså når man klikker i textfeltet-->
               <br><br>
               <input type="submit" value="Submit order" onclick="validateSubmit()" /><br><br>
             </div>
+            <!--Kalle på funksjonen validateSubmit når man trykker på submit-knappen-->
           </div>
     </div>
 
