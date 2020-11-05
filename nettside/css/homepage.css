@@ -2,9 +2,7 @@
 
 .part1 {
   display: grid;
-  /*margin-top: 90px;*/
-  /*grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));*/
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /*lager grid med to like store kolonner*/
   grid-gap: 6px;
   margin-bottom: 6px;
 }
@@ -12,33 +10,11 @@
 @media screen and (max-width: 720px) {
   .part1 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;/*når skjermen blir mindre endres gridet til bare en kolonne*/
   }
 }
 
-#bestemor:hover {
-  transition: 0.5s ease;
-  filter: brightness(30%);
-}
 
-#fakkel:hover {
-  transition: 0.5s ease;
-  filter: brightness(30%);
-}
-
-#seil:hover {
-  transition: 0.5s ease;
-  filter: brightness(30%);
-}
-
-#beito:hover {
-  transition: 0.5s ease;
-  filter: brightness(30%);
-}
-
-#forside {
-  margin-top: 5%;
-}
 
 .screen {
   position: relative;
@@ -87,10 +63,10 @@ h2 {
 
 .part3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /*grid med tre like store kolonner*/
   padding: 10%;
   gap: 10%;
-  grid-auto-rows: 200px;
+  grid-auto-rows: 200px; 
 }
 
 .part4 {

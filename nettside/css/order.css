@@ -70,32 +70,28 @@ input[type="submit"] {
 
 form{
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1fr; /*lager et grid med 2 kolonner med ulik størrelse*/
 }
 
+/*gjør at label til de ulike elementene i formet er plassert helt til høyre i gridet*/
 label, h4{
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
-#textarea:focus {
-  color: #353535;
-}
 
 
-
-
-#video, #hours, #days, #number{
+/*fikser at checkboxene og der man kan putte inn nummer er helt til høyre*/
+#video_check, #hours, #days, #image{
   grid-column-start: 2;
   grid-column-end: 3;
   justify-self: end;
-  
 }
 
 
 @media screen and (max-width: 720px){
   .grid-container{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /*gridet blir kun til en kolonne istedenfor to når skjermen blir mindre*/
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -111,14 +107,6 @@ label, h4{
   }
   h1{
     margin-left: 10%;
-  }
-
-  input[type="submit"]{
-    padding: 0.8%;
-    border-radius: 5px;
-    margin-left: 60%;
-    width: 10em;
-    height: 3em;
   }
 
   #textarea{

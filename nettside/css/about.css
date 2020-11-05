@@ -1,7 +1,8 @@
 .aboutBrage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;/*lager et grid med to like store kolonner*/
 }
+
 
 .imgBrage {
   justify-self: center;
@@ -17,9 +18,11 @@
   margin-top: 8%;
 }
 
+/*videoen av Brage skal ikke vises før man trykker på bildet, derfor display: none*/
 #videoPlayer {
   display: none;
 }
+
 
 .strek {
   margin-left: 10%;
@@ -56,6 +59,7 @@
   margin-top: 4%;
 }
 
+/* @media skjer når skjermen blir mindre enn 720px*/
 @media screen and (max-width: 720px) {
   .cto,
   .cfo,
@@ -63,7 +67,7 @@
   .dronepilot,
   .aboutBrage {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /*gridet blir en kolonne istedenfor to*/
     padding: 2%;
   }
   .text,
@@ -84,15 +88,17 @@
 }
 
 #ingrid:hover, #herman:hover, #roselin:hover, #hanna:hover, #brage:hover{
-  filter: brightness(60%);
+  filter: brightness(60%); 
   cursor: pointer;
 }
+/*gjør bildet mørkere og gjør om musepile til en pointer slik at bruker skjønner at bildene kan trykkes på*/
 
 #introvideo{
   border: 0;
   width: 100%;
 }
 
+/*det som skjer i .videostyle og .textstyle blir trigget når javascript funksjonen i about.js kjører*/
 .videostyle{
   display: flex;
   width: 100%;
@@ -123,7 +129,6 @@
 }
 
 
-
 #lightbox {
   position: fixed;
   z-index: 1000;
@@ -134,6 +139,8 @@
   display: none;
 }
 
+
+/*s#lightbox.active skjer når funksjonen i lightboxabout.js kjører*/
 #lightbox.active {
   display: flex;
   justify-content: center;
