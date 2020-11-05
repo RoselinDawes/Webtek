@@ -33,7 +33,7 @@
         <p>
             Vi har i all hovedsak beholdt veldig mange av elementene slik det var tenkt i P2. 
             Den generelle layouten og strukturen er veldig lik, men noen endringer er gjort slik de er beskrevet under. 
-            <br>I utgangspunktet planla vi å ha seks html-er, men med tanke på at <i>Images</i> fanen nå leder inn til nye sider med kategoriserte bilder som igjen leder til slideshow av de respektive bildene, 
+            <br>I utgangspunktet planla vi å ha seks html-er, men med tanke på at <i>Images</i>-fanen nå leder inn til nye sider med kategoriserte bilder som igjen leder til slideshow av de respektive bildene, 
             har vi utvidet til 14-html sider. 
             <br><br>
             <b>Endringer i navigasjonsstruktur</b><br><br>
@@ -43,37 +43,36 @@
             Det var tenkt at alle disse kunne nås uavhengig av hvor på siden man befant seg, altså som en klick.
             Denne strukturen har vi valgt å utvide slik at det nå også finnes fire individuelle bildekategorier som leder videre inn til hvert sitt slideshow. 
             Dette gjør at om man befinner seg inne på slideshowene kan man ikke navigere seg til de andre sidene på nettsiden, men bare trykke seg tilbake på kategorien man opprinnelig var på.
-            Nettsiden fungerer dermen ikke lenger som en klick med disse sidene implementert, men utenom dette er strukturen lik slik det var beskrevet i P2.
+            Nettsiden fungerer dermed ikke lenger som en klick med disse sidene implementert, men utenom dette er strukturen lik slik det var beskrevet i P2.
             <br><br><br><b>Enringer gjort globalt</b><br><br>
-            Det er enkelte ting som går igjen på nettsiden, og disse elementene har vi valgt å gjøre lett tilgjengelige for oss ved å lage felles koder som blir gjenbrukt i filene våre. 
-            Dette gjelder da en global css, global.css, som inneholder alt av css-kode som går igjen på alle sidene. 
-            Dette innebærer altså stylingen av farger som er felles, stylingen av navbar og footer. 
-            Sider som bruker bilder er koblet opp mot images.css, som gir en helhetlig uttrykk gjennom nettsiden. 
+            Det er enkelte ting som går igjen på nettsiden, og disse elementene har vi valgt å gjøre lett tilgjengelige for oss ved å lage universelle koder som gjenbrukes.
+            Dette gjelder da global css, som inneholder alt av css-kode som går igjen på alle sidene. 
+            Dette innebærer altså stylingen av farger som er felles, navbar og footer. 
+            Sider som bruker bilder er koblet opp mot images.css, som gir et helhetlig uttrykk gjennom nettsiden. 
             <br><br>
-            Bla bla bla
-            <br><br>
+            
             <b>Endringer i header.js - Navbar</b><br><br>
             I utgangspunktet hadde vi tenkt å ha en navbar med elementene <i>Images</i>, <i>Videos</i>, <i>Order</i>, <i>About</i> og <i>Contact</i>. 
-            Det var tenkt at om man hovret over <i>Images</i> og <i>Videos</i> så skulle det dukke opp en subnav-meny med kategoriene <i>Events</i>, <i>Nature/Adventure</i>, <i>Portraits</i>, <i>Promo</i> og <i>Real estate</i>. 
-            I tillegg var det tenkt at når man trykket seg inn på <i>Images</i> fanen så skulle man komme seg inn på en ny side bestående av bilder med tekst over seg slik at man lett forstår hvilke kategorier siden har å by på. 
+            Det var tenkt at om man hovret over <i>Images</i> og <i>Videos</i> så skulle det dukke opp en subnav-meny med kategoriene <i>Events</i>, <i>Nature/Adventure</i>, <i>Portraits</i>, <i>Promo</i> og <i>Real Estate</i>. 
+            I tillegg så vi for oss at når man trykket seg inn på <i>Images</i> fanen så skulle man komme seg inn på en ny side bestående av bilder med tekst over seg slik at man lett forstår hvilke kategorier siden har å by på. 
             <br><br>
             Den første endringen her var at vi konkluderte med å kutte ned på antall kategorier da det viste seg at tilbudet av disse fra klienten ikke var stort nok til at det føltes nødvendig å ha med. 
             Da vi fikk alt innholdet fra klienten vår så vi at det ikke var nødvendig med underkategoriene <i>Promo</i> og <i>Events</i>. 
             Vi så derimot at Brage Bakke tar mange natur- og turbilder, og vi bestemte oss derfor sammen med han for å dele opp <i>Nature/Adventure</i> i to separate kategorier. 
-            Dermed strippet vi det ned til 4 hovedkategorier: <i>Nature</i>, <i>Adventure</i>, <i>Portraits</i> og <i>Real estate</i>. 
+            Dermed strippet vi det ned til 4 hovedkategorier: <i>Nature</i>, <i>Adventure</i>, <i>Portraits</i> og <i>Real Estate</i>. 
             I tillegg fant vi også ut av at det ikke var noe behov for å kategorisere <i>Videos</i> ettersom antallet videoer som klienten vår hadde ikke var mange nok til dette for tiden.
             <br><br>
-            Videre fant vi ut av at det føltes overflødig å ha kategoriene både inne på <i>Images</i>> og i en egen subnav-meny. 
-            Dette kommer av at innholdet i seg selv er relativt enkelt da det kun består av enkeltstående bildet, og antall klikk ble like mange om man så måtte gjennom en subnav eller gå rett inn på <i>Images</i>. 
+            Videre fant vi ut av at det føltes overflødig å ha kategoriene både inne på <i>Images</i> og i en egen subnav-meny. 
+            Dette kommer av at innholdet i seg selv er relativt enkelt da det kun består av enkeltstående bilder, og antall klikk ble like mange om man så måtte gjennom en subnav eller gå rett inn på <i>Images</i>. 
             Med dette i mente avgjorde vi at vi kun ønsket å beholde en av metodene da å ha begge ble smør på flesk, og endte opp med å forkaste subnaven til fordel for et enkelt oversiktlig klikk på <i>Images</i>.
             <br><br>
             <b>Endringer i footer.js - Footer</b>
             <br><br>
-            I footeren valgte vi å kun ha “Sosiale medier”, og tok derfor bort mail-ikonet. 
+            I footeren valgte vi å kun ha “sosiale medier”, og tok derfor bort mail-ikonet. 
             Vi følte dette var overflødig da det er en egen side i navbaren hvor man kan kontakte Brage gjennom mail. 
-            Ettersom klienten er synlig på sosiale medier ble det viktigere for han å fronte dette godt slik at brukerne får muligheten til å lett danne seg et bilde av han, ikke bare gjennom nettsiden men også på et mer personlig plan. 
+            Ettersom klienten er synlig på sosiale medier ble det viktigere for han å fronte dette godt slik at brukerne får muligheten til å lett danne seg et bilde av han, ikke bare gjennom nettsiden, men også på et mer personlig plan. 
             Dette ønsket han skulle være lett tilgjengelig og synlig for brukerne av nettsiden til alle tider, og den er derfor plassert nederst på alle sider. 
-            Ikonene i footeren er nå lenker til hans <i>instagram</i>, <i>linkdin</i>, <i>facebook</i>, <i>youtube</i> og <i>vimeo</i> profil. 
+            Ikonene i footeren er nå lenker til hans <i>Instagram-</i>, <i>LinkedIn-</i>, <i>Facebook-</i>, <i>YouTube-</i> og <i>Vimeo-</i> profil. 
             <br><br>
             <b>Endringer med logo og font</b>
             <br><br>
@@ -94,56 +93,58 @@
             På hjemmesiden har vi endret litt på rekkefølgen av de ulike elementene. 
             Etter en prat med klienten vår fant vi ut at det var viktig for han å få vist fram videosnutten, samt å fortelle litt om hva som er hensikten med nettsiden. 
             Vi bestemte oss derfor for å legge videoen øverst på siden, etterfulgt av et lite avsnitt om hensikten med nettsiden. 
-            Vi synes dette også ga et renere uttrykk, samtidig som det er en spennende forside å komme til fordi videoen spilles av med en gang man kommer inn på siden. 
+            Vi syntes dette også ga et renere uttrykk, samtidig som ble en spennende forside å komme til fordi videoen spilles av med en gang man kommer inn på siden. 
             Ved å legge til et lite avsnitt om Brage og nettsiden på forsiden vil brukeren med en gang skjønne hva nettsiden handler om.
             <br><br>
-            Bildegriden med de 4 bildene kommer derfor litt lengre ned på siden. 
-            Disse endres med et intervall på 3 sekunder slik som planlagt, men funksjonen med å hovre over valgte vi å ta bort. 
-            Vi merket fort at det ble litt for mye som skjedde når bildene endret seg hvert 3 sekund, samtidig som man kunne hovre over og klikke for å komme inn på ny side. 
-            Det ble rotete og uoversiktlig, og vi følte også at det ble litt overflødig fordi om man vil se flere bilder kan man enkelt gå i <i>Images</i> siden i navbaren. 
+            Bildegriden med de fire bildene kommer derfor litt lengre ned på siden. 
+            Disse endres med et intervall på tre sekunder slik som planlagt, men funksjonen med å hovre over valgte vi å ta bort. 
+            Vi merket fort at det ble litt for mye som skjedde når bildene endret seg hvert tredje sekund, samtidig som man kunne hovre over og klikke for å komme inn på ny side. 
+            Det ble rotete og uoversiktlig, og vi følte også at det ble litt overflødig fordi om man vil se flere bilder kan man enkelt gå i <i>Images-</i> siden i navbaren. 
             <br><br>
             <b>Endringer i about.html - About</b>
             <br><br>
-            Inneholdet i about siden er den samme som det var beskrevet i P2. 
+            Innholdet i <i>About-</i> siden er den samme som det var beskrevet i P2. 
             Endringene i layouten er tilnærmet lik planen, med noen få forskjeller.
-            Overskriften "TEAM" var opprinnelig venstrestilt på siden, men vi valgte heller å sentrere på siden da det føltes mer helhetelig ut.
-            Vi har i tillegg valgt å droppe "spill av" ikonet som skulle være over bildet av Brage, og heller skrevet en liten setning om det ved siden av. 
-            Når brukeren hovrer over bildene, vil de bli mørkere slik at man lettere forstår at de kan trykkes på. 
-            Bildet av klienten vår er også erstattet med et mer passende bilde.
+            Overskriften "TEAM" var opprinnelig venstrestilt på siden, men vi valgte heller å sentrere overskriften på siden da det føltes mer helhetlig ut.
+            Vi har i tillegg valgt å droppe "spill av"-ikonet som skulle være over bildet av Brage, og heller skrevet en setning om det ved siden av. 
+            Når brukeren hovrer over bildene vil de bli mørkere slik at man lettere forstår at de kan trykkes på. 
+            Bildet av klienten vår er også erstattet med et mer profesjonelt bilde.
             <br><br>
             <i>Opprettelse av lightboxabout.js:</i>
-            <br><br>
-            Vi lagde en egen javascript fil som gjør at når man trykker på bildene på denne siden så vil større versjoner av det samme bildet dukke opp på skjermen, slik det ble beskrevet i P2.
+            
+            Vi lagde en egen javascript-fil som gjør at når man trykker på bildene på denne siden så vil større versjoner av det samme bildet dukke opp på skjermen, slik det ble beskrevet i P2.
             <br><br>
             <i>Opprettelse av about.js:</i>
-            <br><br>
-            Denne javascripten filen gjør at om man trykker på bildet av Brage så dukker videoen om han opp.
-            <br><br><i>Endringer i about.css:</i><br><br>
+            
+            Denne javascripten-filen gjør at om man trykker på bildet av Brage så dukker videoen av han opp.
+            <br><br><i>Endringer i about.css:</i>
             Vi valgte å lage en grid på denne siden. 
             Dette var for å gjøre det lettere å plassere bilder og tekst på nettsiden, i tillegg til å gjøre det lettere for oss når vi skulle sørge for at siden var responsiv.
             <br><br><b>Endringer i contact.html - Contact</b><br><br>
-            Contact-siden er tilsynelatende identisk med planen vi laget. 
+            <i>Contact-</i> siden er tilsynelatende identisk med planen vi laget. 
             Utover planen er det kun js-funksjonen som gir en bekreftelse på mottatt utfylling av skjema som er annerledes. 
             <br><br><b>Endringer i images.html - Images</b><br><br>
             Istedenfor å komme inn på bildekategori-sidene gjennom en subnav under <i>Images</i> i toppmenyen, får man heller opp kategoriene når man hovrer over bildene. 
-            Hvert bilde er ordnet slik at når man hovrer over det, vil man se et av kategori-ordene <i>Adventure</i>, <i>Nature</i>, <i>Portrait</i> eller <i>Real estate</i>. 
+            Hvert bilde er ordnet slik at når man hovrer over det, vil man se et av kategori-ordene <i>Adventure</i>, <i>Nature</i>, <i>Portrait</i> eller <i>Real Estate</i>. 
             Samtidig fremheves bildet med en zoom-effekt, samt en mørkhet som gjør den hvite teksten tydelig. 
-            Cursoren blir en pointer slik at det er tydelig at man kan klikke seg videre inn på bildet, og dermed komme til den spesifikke kategori-side.
+            Cursoren blir en pointer slik at det er tydelig at man kan klikke seg videre inn på bildet, og dermed komme til den spesifikke kategoriens side.
             <br><br>
             På kategori-sidene fins den samme effekten på hvert bilde, bare uten tekst. 
             Klikker man igjen på et av bildene på kategori-siden, får man opp et responsivt fullskjerm-slideshow med mulighet til å bla gjennom bilder av høy kvalitet. 
             Man kan bla begge veier, hele veien rundt og krysse seg ut for å komme tilbake til kategori-siden. 
             Knappene her (piler til høyre og venstre og en exit-knapp) er delvis gjennomsiktige slik at man kan se det som er bak dem også. 
-            Brukeren får dermed en optimal visuell opplevelse av Brages bilder. 
-            <br><br><b>Endringer i videos.html - Videos</b><br><br>
+            Brukeren får dermed en optimal visuell opplevelse av Brages bilder. <br><br>
+            <i>Opprettelse av images.css:</i>
+            Denne setter opp en grid til alle bilde-sidene, og gir muligheten til å bestemme bildenes størrelse i gridet. 
+            <br><br>
             <i>Opprettelse av slider.css:</i>
             Denne styler og linker til bildene til de fire slideshowene, som inkluderer responsiv fullskjerm-visning og knappenes utseende.
             <br><br>
-            <i>Opprettelse av images.css:</i>
-            Denne setter opp et grid til alle bilde-sidene, og gir muligheten til å bestemme bildenes størrelse i gridet. 
-            <br><br>
+        
             <i>Opprettelsen av slider.js:</i>
-            Denne lager funksjonene på slideshowene, som inkluderer pil-knapper for å navigere gjennom bildene, og exit-knappen for å gå ut av slideshowet. <br><br>
+            Denne lager funksjonene på slideshowene, som inkluderer pil-knapper for å navigere gjennom bildene, og exit-knappen for å gå ut av slideshowet. <br>
+            <br><br><b>Endringer i videos.html - Videos</b><br><br>
+          
             På <i>Videos</i>-siden er alle videoer samlet på èn side, heller enn at brukeren havner i en valgt kategori. 
             Videoene ligger som planlagt fortsatt under hverandre, men i Vimeo-format. 
             Her har man mulighet til å like, lagre til senere og dele videoen med ett tastetrykk, samt spille av i fullskjerm-modus, velge oppløsning og klikke seg videre inn på Vimeo-profilen til Brage. 
@@ -166,21 +167,21 @@
             Dette skulle skje ved at om man var lenger nede på siden og navbaren ikke lenger er synlig, 
             så skal det holde med en liten scroll oppover for at den dukker opp igjen.
             Med dette i mente opprettet vi en egen javascript som heter navbar.js som inneholder en funksjon som utfyller dette ønsket.
-            Denne har vi linka til i alle html sidene våre som inneholder navbaren.
+            Denne har vi linka til i alle html-sidene våre som inneholder navbaren.
 
             <br><br><b>Opprettelse av header.js og footer.js</b><br><br>
-            Ettersom navbaren og footer blir brukt på alle sidene utenom slideshowenehar vi opprettet javascript filene header.js og footer.js.
-            Disse har vi linket til på alle sidene hvor de befinner seg i html filene.
+            Ettersom navbaren og footer blir brukt på alle sidene utenom slideshowenehar vi opprettet javascript-filene header.js og footer.js.
+            Disse har vi linket til på alle sidene hvor de befinner seg i html-filene.
             
             <br><br><b>Opprettelse av slider.js</b><br><br>
-            Denne javascript filen er brukt for å lage slideshowene. 
+            Denne javascript-filen er brukt for å lage slideshowene. 
             Med tanke på at vi har fire ulike kategorier som har slideshowfunksjon, 
-            lagde vi en felles javascript fil som lett kan brukes på sidene det skulle gjelde. 
+            lagde vi en felles javascript-fil som lett kan brukes på sidene det skulle gjelde. 
 
             <br><br><b>Opprettelse av submit.js</b><br><br>
             Vi har to sider som tillatter brukeren å sende inn noe. 
-            Dette gjelder på <i>Order</i> siden og på <i>Contact</i> siden. 
-            Vi har derfor lagd en denne felles javascript filen som brukes på begge disse sidene.
+            Dette gjelder på <i>Order-</i> siden og på <i>Contact-</i> siden. 
+            Vi har derfor laget denne felles javascript-filen som brukes på begge disse sidene.
           
         </p>
       </div>
@@ -189,20 +190,20 @@
         <h2>Minimumskrav</h2>
                 <p>
                   Det har blitt en del endringer av minimumskravene. 
-                  Av opprinnelig plan er det nr. 1 (bildene på homepage skiftes med et intervall, <i>homepage.js</i>, utført av Hanna), nr. 4 (bildene av teamet på about-siden forstørres ved klikk, <i>lightbox.js</i>, utført av Hanna og Ingrid) og nr.5 (image gallery, -preview av kommende bilder, <i>slider.js</i>, uført av Herman) som er med. 
-                  Vi valgte å gå vekk fra subnav-menyen (nr.2), da denne føltes overflødig med tanke på at vi hadde linker til kategoriene på alle bildene på “images”-siden. 
+                  Av opprinnelig plan er det nr. 1 (bildene på homepage skiftes med et intervall, <i>homepage.js</i>, utført av Hanna), nr. 4 (bildene av teamet på about-siden forstørres ved klikk, <i>lightbox.js</i>, utført av Hanna og Ingrid) og nr. 5 (image gallery, -preview av kommende bilder, <i>slider.js</i>, utført av Herman) som er med. 
+                  Vi valgte å gå vekk fra subnav-menyen (nr. 2), da denne føltes overflødig med tanke på at vi hadde linker til kategoriene på alle bildene på <i>Images</i>-siden. 
                   Vi følte også at nr. 3 (cascading dropdown-meny) ble overflødig da en sjelden velger veldig store tall.<br><br>
                   Likevel ble det mange nye js-elementer, disse har vi lagt inn for å optimalisere funksjonene på nettsiden. 
                   <br><br>
-                  <li>“about.js” gjør at introduksjonsvideoen av Brage dukker opp ved klikk på bildet av ham. Utført av Ingrid.</li><br>
-                  <li>“footer.js” footeren ble først laget i html, men senere endret til js da den er gjennomgående for nesten alle html-sider. Utført av Roselin.</li><br>
-                  <li>“header.js” headeren ble også opprinnelig laget i html, men også endret til js da den er gjennomgående. Utført av Roselin. </li><br>
-                  <li>“navbar.js” gjør at navbaren dukker opp igjen ved et lite scroll opp når man er så langt ned på en side at navbaren ikke er synlig lengre. Utført av Hanna og Brage. </li><br>
-                  <li>“order.js” fjerner teksten i textarea på order-siden ved klikk. Utført av Ingrid.</li><br>
-                  <li>“submit.js” gir beskjed om at skjemaene er sendt inn på order- og contactsiden. Utført av Brage. </li><br>
+                  <li><i>about.js</i> - gjør at introduksjonsvideoen av Brage dukker opp ved klikk på bildet av ham. Utført av Ingrid.</li><br>
+                  <li><i>footer.js</i> - footeren ble først laget i html, men senere endret til js da den er gjennomgående for nesten alle html-sider. Utført av Roselin.</li><br>
+                  <li><i>header.js</i> - headeren ble også opprinnelig laget i html, men også endret til js da den er gjennomgående. Utført av Roselin. </li><br>
+                  <li><i>navbar.js</i> - gjør at navbaren dukker opp igjen ved et lite scroll opp når man er så langt ned på en side at navbaren ikke er synlig lengre. Utført av Hanna og Brage. </li><br>
+                  <li><i>order.js</i> - fjerner teksten i textarea på <i>Order</i>-siden ved klikk. Utført av Ingrid.</li><br>
+                  <li><i>submit.js</i> - gir beskjed om at skjemaene er sendt inn på <i>Order-</i> og <i>Contact-</i>siden. Utført av Brage. </li><br>
                 </p>
-              </div>
-              <br />
+        </div>
+              <br>
               <div class="boks">
       <div class="boks">
       <h2>Oppdatert filstruktur</h2>
@@ -210,13 +211,14 @@
            <img id="filstruktur" src="img/filstruktur.png" alt="oppdatert filstruktur" />
           <br><br>
           Filstrukturen har gått gjennom en ganske omfattende oppdatering, men den er fortsatt ryddig og enkel å finne frem i.
-          Video mappen er nå borte, da vi heller valgte å bruke "iframe" for å bruke vimeo sin avspiller direkte i html-sidene.
+          Video-mappen er nå borte, da vi heller valgte å bruke "iframe" for å bruke Vimeo sin avspiller direkte i html-sidene.
           
         </p>
-      </div>
-      <br />
-      <br />
+      </div></div>
+      <br>
+      <br>
       <div class="boks">
+            <div class="boks">
         <h2>Endelig arbeidsfordeling</h2>
         <p>
             <img id="arbeidsfordeling1" src="img/arbeidsfordeling1.png" alt="arbeidsfordeling1"/>
@@ -225,6 +227,8 @@
             <br>
             <img id="arbeidsfordeling3" src="img/arbeidsfordeling3.png" alt="arbeidsfordeling3"/>
         </p>
+      </div></div>
+
        
      
       
