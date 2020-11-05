@@ -22,6 +22,9 @@
 <h2>Administrative detaljer</h2>
         <p>
           Klientens navn, navn på nettsiden og kontakpersonen er Brage Bakke.
+          <br><br>Lenke til nettside: 
+          <a href= "http://folk.ntnu.no/hanmo/Nettside/homepage.html" target="_blank">
+            http://folk.ntnu.no/hanmo/Nettside/homepage.html</a>
         </p>
       </div>
       <br />
@@ -33,7 +36,7 @@
             <br>I utgangspunktet planla vi å ha seks html-er, men med tanke på at <i>Images</i> fanen nå leder inn til nye sider med kategoriserte bilder som igjen leder til slideshow av de respektive bildene, 
             har vi utvidet til 14-html sider. 
             <br><br>
-            <b>Navigasjonsstruktur</b><br><br>
+            <b>Endringer i navigasjonsstruktur</b><br><br>
             <img id="navigasjonsstruktur" src="img/navigasjonsstruktur.png" alt= "Ny navigasjonsstruktur"/>
             
             Opprinnelig så vi for oss at nettsiden bestod av de fem hovedkategoriene + hjemmesiden. 
@@ -41,7 +44,7 @@
             Denne strukturen har vi valgt å utvide slik at det nå også finnes fire individuelle bildekategorier som leder videre inn til hvert sitt slideshow. 
             Dette gjør at om man befinner seg inne på slideshowene kan man ikke navigere seg til de andre sidene på nettsiden, men bare trykke seg tilbake på kategorien man opprinnelig var på.
             Nettsiden fungerer dermen ikke lenger som en klick med disse sidene implementert, men utenom dette er strukturen lik slik det var beskrevet i P2.
-            <br><br><br><b>Globalt</b><br><br>
+            <br><br><br><b>Enringer gjort globalt</b><br><br>
             Det er enkelte ting som går igjen på nettsiden, og disse elementene har vi valgt å gjøre lett tilgjengelige for oss ved å lage felles koder som blir gjenbrukt i filene våre. 
             Dette gjelder da en global css, global.css, som inneholder alt av css-kode som går igjen på alle sidene. 
             Dette innebærer altså stylingen av farger som er felles, stylingen av navbar og footer. 
@@ -49,7 +52,7 @@
             <br><br>
             Bla bla bla
             <br><br>
-            <b>Navbar</b><br><br>
+            <b>Endringer i header.js - Navbar</b><br><br>
             I utgangspunktet hadde vi tenkt å ha en navbar med elementene <i>Images</i>, <i>Videos</i>, <i>Order</i>, <i>About</i> og <i>Contact</i>. 
             Det var tenkt at om man hovret over <i>Images</i> og <i>Videos</i> så skulle det dukke opp en subnav-meny med kategoriene <i>Events</i>, <i>Nature/Adventure</i>, <i>Portraits</i>, <i>Promo</i> og <i>Real estate</i>. 
             I tillegg var det tenkt at når man trykket seg inn på <i>Images</i> fanen så skulle man komme seg inn på en ny side bestående av bilder med tekst over seg slik at man lett forstår hvilke kategorier siden har å by på. 
@@ -64,7 +67,7 @@
             Dette kommer av at innholdet i seg selv er relativt enkelt da det kun består av enkeltstående bildet, og antall klikk ble like mange om man så måtte gjennom en subnav eller gå rett inn på <i>Images</i>. 
             Med dette i mente avgjorde vi at vi kun ønsket å beholde en av metodene da å ha begge ble smør på flesk, og endte opp med å forkaste subnaven til fordel for et enkelt oversiktlig klikk på <i>Images</i>.
             <br><br>
-            <b>Footer</b>
+            <b>Endringer i footer.js - Footer</b>
             <br><br>
             I footeren valgte vi å kun ha “Sosiale medier”, og tok derfor bort mail-ikonet. 
             Vi følte dette var overflødig da det er en egen side i navbaren hvor man kan kontakte Brage gjennom mail. 
@@ -72,7 +75,7 @@
             Dette ønsket han skulle være lett tilgjengelig og synlig for brukerne av nettsiden til alle tider, og den er derfor plassert nederst på alle sider. 
             Ikonene i footeren er nå lenker til hans <i>instagram</i>, <i>linkdin</i>, <i>facebook</i>, <i>youtube</i> og <i>vimeo</i> profil. 
             <br><br>
-            <b>Logo og font</b>
+            <b>Endringer med logo og font</b>
             <br><br>
             Vi hadde til å begynne med en logo uten tekst. 
             For å “brande” Brage ytterligere la vi til “BRAGE BAKKE” ved siden av logoen for at brukerne skulle få en tilknytning til både ikon og navn til samme tid. 
@@ -86,7 +89,7 @@
             Dette kommer av at dette er en mer anerkjent font som alle på en eller annen måte har vært borti før. 
             I tillegg så fant vi ut av at de fleste bedrifter holder seg til den samme fonten, og den har med dette blitt assosiert med bedriftskultur og virksomhet, noe vi ønsket at vår klient også skal bli assosiert med. 
             <br><br>
-            <b>Homepage</b>
+            <b>Endringer i homepage.html - Homepage</b>
             <br><br>
             På hjemmesiden har vi endret litt på rekkefølgen av de ulike elementene. 
             Etter en prat med klienten vår fant vi ut at det var viktig for han å få vist fram videosnutten, samt å fortelle litt om hva som er hensikten med nettsiden. 
@@ -99,20 +102,64 @@
             Vi merket fort at det ble litt for mye som skjedde når bildene endret seg hvert 3 sekund, samtidig som man kunne hovre over og klikke for å komme inn på ny side. 
             Det ble rotete og uoversiktlig, og vi følte også at det ble litt overflødig fordi om man vil se flere bilder kan man enkelt gå i <i>Images</i> siden i navbaren. 
             <br><br>
-            <b>Videos</b>
+            <b>Endringer i about.html - About</b>
+            <br><br>
+            Inneholdet i about siden er den samme som det var beskrevet i P2. 
+            Endringene i layouten er tilnærmet lik planen, med noen få forskjeller.
+            Overskriften "TEAM" var opprinnelig venstrestilt på siden, men vi valgte heller å sentrere på siden da det føltes mer helhetelig ut.
+            Vi har i tillegg valgt å droppe "spill av" ikonet som skulle være over bildet av brage, og heller skrevet en liten setning om det ved siden av. 
+            Når brukeren hovrer over bildene, vil de bli mørkere slik at man lettere forstår at de kan trykkes på. 
+            Bildet av klienten vår er også erstattet med et mer passende bilde.
+            <br><br>
+            <i>Opprettelse av lightboxabout.js:</i>
+            <br><br>
+            Vi lagde en egen javascript fil som gjør at når man trykker på bildene på denne siden så vil større versjoner av det samme bildet dukke opp på skjermen, slik det ble beskrevet i P2.
+            <br><br>
+            <i>Endringer i about.css:</i><br><br>
+            Vi valgte å lage en grid på denne siden. 
+            Dette var for å gjøre det lettere å plassere bilder og tekst på nettsiden, i tillegg til å gjøre det lettere for oss når vi skulle sørge for at siden var responsiv.
+            <br><br><b>Endringer i contact.html - Contact</b><br><br>
+            <br><br><b>Endringer i videos.html - Videos</b>
+
+
+          
+        
+      </div>
+      <br />
+      <div class="boks">
+        <h2>Modularitet</h2>
+            <br><b>Opprettelse av navbar.js</b><br><br>
+            Som beskrevet i P2 hadde vi et ønske om å at navbaren skulle ha være synlig på toppen av siden til alle tider, men også være tilgjengelig når man scrollet ned.
+            Dette skulle skje ved at om man var lenger nede på siden og navbaren ikke lenger er synlig, 
+            så skal det holde med en liten scroll oppover for at den dukker opp igjen.
+            Med dette i mente opprettet vi en egen javascript som heter navbar.js som inneholder en funksjon som utfyller dette ønsket.
+            Denne har vi linka til i alle html sidene våre som inneholder navbaren.
+
+            <br><br><b>Opprettelse av header.js og footer.js</b><br><br>
+            Ettersom navbaren og footer blir brukt på alle sidene utenom slideshowenehar vi opprettet javascript filene header.js og footer.js.
+            Disse har vi linket til på alle sidene hvor de befinner seg i html filene.
+            
+            <br><br><b>Opprettelse av slider.js</b><br><br>
+            Denne javascript filen er brukt for å lage slideshowene. 
+            Med tanke på at vi har fire ulike kategorier som har slideshowfunksjon, 
+            lagde vi en felles javascript fil som lett kan brukes på sidene det skulle gjelde. 
+
+            <br><br><b>Opprettelse av submit.js</b><br><br>
+            Vi har to sider som tillatter brukeren å sende inn noe. 
+            Dette gjelder på <i>Order</i> siden og på <i>Contact</i> siden. 
+            Vi har derfor lagd en denne felles javascript filen som brukes på begge disse sidene.
+          
         </p>
       </div>
       <br />
       <div class="boks">
-<h2>Oppdatert filstruktur</h2>
+      <h2>Oppdatert filstruktur</h2>
         <p>
-           
-          <br /><br />
-          <img
-            id="navigasjonsstruktur"
-            src="img/Navigasjonsstruktur.jpg"
-            alt="navigasjon"
-          />
+           <img id="filstruktur" src="img/filstruktur.png" alt="oppdatert filstruktur" />
+          <br><br>
+          Filstrukturen har gått gjennom en ganske omfattende oppdatering, men den er fortsatt ryddig og enkel å finne frem i.
+          Video mappen er nå borte, da vi heller valgte å bruke "iframe" for å bruke vimeo sin avspiller direkte i html-sidene.
+          
         </p>
       </div>
       <br />
@@ -120,32 +167,15 @@
       <div class="boks">
         <h2>Endelig arbeidsfordeling</h2>
         <p>
-            I testene våre benyttet vi oss av nettleservinduet på datamaskinen (google chrome), i ulike vindusstørrelser. 
-            Det ble også testet med ulik bredde, fra 450px til 1920px. 
-            Testene ble gjennomført på et møterom i Adolf Øien-bygget uten eksterne forstyrrelser. 
+            <img id="arbeidsfordeling1" src="img/arbeidsfordeling1.png" alt="arbeidsfordeling1"/>
+            <br>
+            <img id="arbeidsfordeling2" src="img/arbeidsfordeling2.png" alt="arbeidsfordeling2"/>
+            <br>
+            <img id="arbeidsfordeling3" src="img/arbeidsfordeling3.png" alt="arbeidsfordeling3"/>
         </p>
        
-      <div class="boks">
-        <h2>Tilbakemeldinger og sammendrag</h2>
-        <p>
-            Som nevnt under «testdokument», var det store deler av informasjonen som kom frem fra første testperson. 
-            Videre i testingen så vi en avtakende trend av ny informasjon. 
-        </p>
-       
+     
       
-      <div class="boks">
-        <h2>Respons tilbakemeldinger</h2>
-       <p>
-        En løsning på...  
-       </p>
-      </div>
-      <br />
-      <div class="boks">
-<h2>Grupperefleksjon</h2>
-        <p>
-            «Brage Bakke» har vært et omfattende, men lærerikt prosjekt med stort utbytte for alle undertegnede. 
-        </p>
-      </div>
       <br /><br /><br />
       <footer>Brage, Hanna, Herman, Ingrid og Roselin</footer>
       <br />
