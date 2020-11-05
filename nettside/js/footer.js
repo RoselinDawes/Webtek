@@ -74,8 +74,8 @@ function footer() {
     linkdin_icon.src = "icon/linkdin.png";
     linkdin_icon.addEventListener("mouseover", red_linkdin);
     linkdin_icon.addEventListener("mouseout", normal_linkdin);
-    foot.appendChild(linkdin_lenke)
-    foot.appendChild(linkdin_icon)
+    foot.appendChild(linkdin_lenke);
+    linkdin_lenke.appendChild(linkdin_icon);
   
 
 
@@ -87,8 +87,8 @@ function footer() {
     face_icon.src = "icon/face.png";
     face_icon.addEventListener("mouseover", red_face);
     face_icon.addEventListener("mouseout", normal_face);
-    foot.appendChild(face)
-    foot.appendChild(face_icon)
+    foot.appendChild(face);
+    face.appendChild(face_icon);
    
 
     const yt = document.createElement("a");
@@ -99,8 +99,8 @@ function footer() {
     yt_icon.src = "icon/youtube.png";
     yt_icon.addEventListener("mouseover", red_yt);
     yt_icon.addEventListener("mouseout", normal_yt);
-    foot.appendChild(yt)
-    foot.appendChild(yt_icon)
+    foot.appendChild(yt);
+    yt.appendChild(yt_icon);
   
 
 
@@ -112,8 +112,8 @@ function footer() {
     vimeo_icon.src = "icon/vimeo.png";
     vimeo_icon.addEventListener("mouseover", red_vimeo);
     vimeo_icon.addEventListener("mouseout", normal_vimeo);
-    foot.appendChild(vimeo)
-    foot.appendChild(vimeo_icon)
+    foot.appendChild(vimeo);
+    vimeo.appendChild(vimeo_icon);
  
 
 }
