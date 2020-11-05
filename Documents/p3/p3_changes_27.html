@@ -107,7 +107,7 @@
             Inneholdet i about siden er den samme som det var beskrevet i P2. 
             Endringene i layouten er tilnærmet lik planen, med noen få forskjeller.
             Overskriften "TEAM" var opprinnelig venstrestilt på siden, men vi valgte heller å sentrere på siden da det føltes mer helhetelig ut.
-            Vi har i tillegg valgt å droppe "spill av" ikonet som skulle være over bildet av brage, og heller skrevet en liten setning om det ved siden av. 
+            Vi har i tillegg valgt å droppe "spill av" ikonet som skulle være over bildet av Brage, og heller skrevet en liten setning om det ved siden av. 
             Når brukeren hovrer over bildene, vil de bli mørkere slik at man lettere forstår at de kan trykkes på. 
             Bildet av klienten vår er også erstattet med et mer passende bilde.
             <br><br>
@@ -115,11 +115,36 @@
             <br><br>
             Vi lagde en egen javascript fil som gjør at når man trykker på bildene på denne siden så vil større versjoner av det samme bildet dukke opp på skjermen, slik det ble beskrevet i P2.
             <br><br>
-            <i>Endringer i about.css:</i><br><br>
+            <i>Oppretlse av about.js:</i>
+            <br><br>
+            Denne javascripten filen gjør at om man trykker på bildet av Brage så dukker videoen om han opp.
+            <br><br><i>Endringer i about.css:</i><br><br>
             Vi valgte å lage en grid på denne siden. 
             Dette var for å gjøre det lettere å plassere bilder og tekst på nettsiden, i tillegg til å gjøre det lettere for oss når vi skulle sørge for at siden var responsiv.
             <br><br><b>Endringer i contact.html - Contact</b><br><br>
-            <br><br><b>Endringer i videos.html - Videos</b>
+            Contact-siden er tilsynelatende identisk med planen vi laget. 
+            Utover planen er det kun js-funksjonen som gir en bekreftelse på mottatt utfylling av skjema som er annerledes. 
+            <br><br><b>Endringer i images.html - Images</b><br><br>
+            Istedenfor å komme inn på bildekategori-sidene gjennom en subnav under <i>Images</i> i toppmenyen, får man heller opp kategoriene når man hovrer over bildene. 
+            Hvert bilde er ordnet slik at når man hovrer over det, vil man se et av kategori-ordene <i>Adventure</i>, <i>Nature</i>, <i>Portrait</i> eller <i>Real estate</i>. 
+            Samtidig fremheves bildet med en zoom-effekt, samt en mørkhet som gjør den hvite teksten tydelig. 
+            Cursoren blir en pointer slik at det er tydelig at man kan klikke seg videre inn på bildet, og dermed komme til den spesifikke kategori-side.
+            <br><br>
+            På kategori-sidene fins den samme effekten på hvert bilde, bare uten tekst. 
+            Klikker man igjen på et av bildene på kategori-siden, får man opp et responsivt fullskjerm-slideshow med mulighet til å bla gjennom bilder av høy kvalitet. 
+            Man kan bla begge veier, hele veien rundt og krysse seg ut for å komme tilbake til kategori-siden. 
+            Knappene her (piler til høyre og venstre og en exit-knapp) er delvis gjennomsiktige slik at man kan se det som er bak dem også. 
+            Brukeren får dermed en optimal visuell opplevelse av Brages bilder. 
+            <br><br><b>Endringer i videos.html - Videos</b><br><br>
+            På <i>Videos</i>-siden er alle videoer samlet på èn side, heller enn at brukeren havner i en valgt kategori. 
+            Videoene ligger som planlagt fortsatt under hverandre, men i Vimeo-format. 
+            Her har man mulighet til å like, lagre til senere og dele videoen med ett tastetrykk, samt spille av i fullskjerm-modus, velge oppløsning og klikke seg videre inn på Vimeo-profilen til Brage. 
+            Man har også friheten til å la være å gå inn på Vimeo hvis man heller vil bli værende på Brage Bakkes nettside og se videoene direkte herfra. 
+            Tittel og en liten tekst om hver video er også lagt til i nettsidens stil.
+            Det er også lagt til streker mellom videoene for å skape en mer ryddig og oversiktlig layout på siden. <br>
+
+
+
 
 
           
@@ -151,7 +176,26 @@
           
         </p>
       </div>
-      <br />
+      <br>
+      <div class="boks">
+        <h2>Minimumskrav</h2>
+                <p>
+                  Det har blitt en del endringer av minimumskravene. 
+                  Av opprinnelig plan er det nr. 1 (bildene på homepage skiftes med et intervall), nr. 4 (bildene av teamet på about-siden forstørres ved klikk) og nr.5 (image gallery, -preview av kommende bilder) som er med. 
+                  Vi valgte å gå vekk fra subnav-menyen (nr.2), da denne føltes overflødig med tanke på at vi hadde linker til kategoriene på alle bildene på “images”-siden. 
+                  Vi følte også at nr. 3 (cascading dropdown-meny) ble overflødig da en sjelden velger veldig store tall.<br><br>
+                  Likevel ble det mange nye js-elementer, disse har vi lagt inn for å optimalisere funksjonene på nettsiden. 
+                  <br><br>
+                  <li>“about.js” gjør at introduksjonsvideoen av Brage dukker opp ved klikk på bildet av ham. </li><br>
+                  <li>“footer.js” footeren ble først laget i html, men senere endret til js da den er gjennomgående for nesten alle html-sider.</li><br>
+                  <li>“header.js” headeren ble også opprinnelig laget i html, men også endret til js da den er gjennomgående. </li><br>
+                  <li>“navbar.js” gjør at navbaren dukker opp igjen ved et lite scroll opp når man er så langt ned på en side at navbaren ikke er synlig lengre. </li><br>
+                  <li>“order.js” fjerner teksten i textarea på order-siden ved klikk.</li><br>
+                  <li>“submit.js” gir beskjed om at skjemaene er sendt inn på order- og contactsiden. </li><br>
+                </p>
+              </div>
+              <br />
+              <div class="boks">
       <div class="boks">
       <h2>Oppdatert filstruktur</h2>
         <p>
